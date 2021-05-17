@@ -1,11 +1,12 @@
 const bcrypt = require("bcrypt");
+const { JSON } = require("sequelize");
 const User = require("../models/user.js");
 let currentDate = new Date();
 
 const getUsers = async (req, res) => {
   await User.findAll()
     .then(function (results) {
-      res.status(200).json(results.rows);
+      res.status(200).send(results);
     })
     .catch(function (err) {
       res.status(500).send("Ocorreu um erro inesperado." + err);
@@ -15,9 +16,9 @@ const getUsers = async (req, res) => {
 const getUserById = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  await User.findByPk(id)
-    .then(function (results) {
-      res.status(200).json(results.rows);
+  await User.findOne({ where: (user_id = id) })
+    .then(function (result) {
+      res.status(200).send(result);
     })
     .catch(function (err) {
       res.status(500).send("Ocorreu um erro inesperado." + err);
