@@ -13,11 +13,11 @@ const Schedule = db.sequelize.define("schedule", {
     type: db.Sequelize.TIME,
   },
   status: {
-    type: db.Sequelize.INTEGER,
+    type: db.Sequelize.BOOLEAN,
   },
   user_id: {
     type: db.Sequelize.INTEGER,
-    references: User
+    references: User.user_id
   },
 });
 

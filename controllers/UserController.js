@@ -5,11 +5,14 @@ let currentDate = new Date();
 
 const getUsers = async (req, res) => {
   await User.findAll()
-    .then(function (results) {
+    .then((results) => {
       res.status(200).send(results);
     })
-    .catch(function (err) {
-      res.status(500).send("Ocorreu um erro inesperado." + err);
+    .catch((err) => {
+      res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro: " + err,
+      });
     });
 };
 
@@ -17,11 +20,15 @@ const getUserById = async (req, res) => {
   const id = parseInt(req.params.id);
 
   await User.findOne({ where: { user_id: id } })
-    .then(function (result) {
+
+    .then((result) => {
       res.status(200).send(result);
     })
-    .catch(function (err) {
-      res.status(500).send("Ocorreu um erro inesperado." + err);
+    .catch((err) => {
+      res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro: " + err,
+      });
     });
 };
 
@@ -31,6 +38,8 @@ const createUser = async (req, res) => {
 
   const user_type = "normal";
   const created_at = currentDate;
+  const account_verified = false;
+  const active = true;
 
   const hashed_password = bcrypt.hashSync(password, 10);
 
@@ -41,51 +50,62 @@ const createUser = async (req, res) => {
       error: true,
       message: "Por favor, preencha todos os campos.",
     });
-  } else if (emailExists) {
+  }
+  if (emailExists) {
     return res.status(401).json({
       error: true,
       message: "E-mail já cadastrado.",
     });
-  } else {
-    await User.create(
-      {
-        name: name,
-        email: email,
-        address: address,
-        postal_code: postal_code,
-        district: district,
-        city: city,
-        phone1: phone1,
-        phone2: phone2,
-        account_verified: account_verified,
-        hashed_password: hashed_password,
-        active: active,
-        user_type: user_type,
-        created_at: created_at,
-      },
-      {
-        fields: [
-          "name",
-          "email",
-          "address",
-          "postal_code",
-          "district",
-          "city",
-          "phone1",
-          "phone2",
-          "account_verified",
-          "hashed_password",
-          "active",
-          "user_type",
-          "created_at",
-        ],
-      }
-    );
-    res.status(200).send("Usuário adicionado com sucesso.");
   }
+
+  await User.create(
+    {
+      name: name,
+      email: email,
+      address: address,
+      postal_code: postal_code,
+      district: district,
+      city: city,
+      phone1: phone1,
+      phone2: phone2,
+      account_verified: account_verified,
+      hashed_password: hashed_password,
+      active: active,
+      user_type: user_type,
+      created_at: created_at,
+    },
+    {
+      fields: [
+        "name",
+        "email",
+        "address",
+        "postal_code",
+        "district",
+        "city",
+        "phone1",
+        "phone2",
+        "account_verified",
+        "hashed_password",
+        "active",
+        "user_type",
+        "created_at",
+      ],
+    }
+  )
+    .then(() => {
+      res.status(200).json({
+        error: false,
+        message: "Usuário cadastrado com sucesso.",
+      });
+    })
+    .catch((err) => {
+      res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro: " + err,
+      });
+    });
 };
 
-//Método precisa ser ajudado para validar corretamente
 const updateUser = async (req, res) => {
   const id = parseInt(req.params.id);
 
@@ -100,11 +120,10 @@ const updateUser = async (req, res) => {
     phone2,
     password,
     checkPassword,
+    account_verified,
+    user_type,
+    active,
   } = req.body;
-
-  const active = true;
-  const account_verified = false;
-  const user_type = "normal";
 
   const currentUser = await User.findOne({ where: { user_id: id } });
 
@@ -137,8 +156,19 @@ const updateUser = async (req, res) => {
         user_id: id,
       },
     }
-  );
-  res.status(200).send("Usuário atualizado com sucesso.");
+  )
+    .then(() => {
+      res.status(200).json({
+        error: false,
+        message: "Usuário atualizado com sucesso.",
+      });
+    })
+    .catch((err) => {
+      res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro: " + err,
+      });
+    });
 };
 
 const deleteUser = async (req, res) => {
@@ -149,11 +179,17 @@ const deleteUser = async (req, res) => {
       user_id: id,
     },
   })
-    .then(req, (res) => {
-      res.status(200).send("usuário excluído com sucesso!");
+    .then(() => {
+      res.status(200).json({
+        error: false,
+        message: "Usuário excluído com sucesso.",
+      });
     })
     .catch((err) => {
-      res.status(401).send("Ocorreu um erro inesperado: " + err);
+      res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro: " + err,
+      });
     });
 };
 
