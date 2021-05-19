@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const { JSON } = require("sequelize");
-const User = require("../models/user.js");
+const User = require("../models/user");
 let currentDate = new Date();
 
 const getUsers = async (req, res) => {
@@ -16,7 +16,7 @@ const getUsers = async (req, res) => {
 const getUserById = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  await User.findOne({ where: (user_id = id) })
+  await User.findOne({ where: { user_id: id } })
     .then(function (result) {
       res.status(200).send(result);
     })
@@ -29,8 +29,6 @@ const createUser = async (req, res) => {
   const { name, email, password } = req.body;
   const { address, postal_code, district, city, phone1, phone2 } = "";
 
-  const active = true;
-  const account_verified = false;
   const user_type = "normal";
   const created_at = currentDate;
 
@@ -91,14 +89,33 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  const { name, email, address, postal_code, district, city, phone1, phone2 } =
-    req.body;
+  const {
+    name,
+    email,
+    address,
+    postal_code,
+    district,
+    city,
+    phone1,
+    phone2,
+    password,
+    checkPassword,
+  } = req.body;
 
   const active = true;
   const account_verified = false;
   const user_type = "normal";
 
-  //const hashed_password = bcrypt.hashSync(password, 10);
+  const currentUser = await User.findOne({ where: { user_id: id } });
+
+  if (!bcrypt.compareSync(checkPassword, currentUser.hashed_password)) {
+    return res.status(400).json({
+      error: true,
+      message: "Senha atual incorreta.",
+    });
+  }
+
+  const hashed_password = bcrypt.hashSync(password, 10);
 
   await User.update(
     {
@@ -113,6 +130,7 @@ const updateUser = async (req, res) => {
       account_verified: account_verified,
       active: active,
       user_type: user_type,
+      hashed_password: hashed_password,
     },
     {
       where: {
