@@ -16,10 +16,17 @@ const signIn = async (req, res) => {
     });
   }
 
-  if (!user || !(await bcrypt.compareSync(password, user.hashed_password))) {
+  if (!user || !(await bcrypt.compareSync(password, user.hashedPassword))) {
     return res.status(401).json({
       error: true,
       message: "E-mail ou senha inválidos.",
+    });
+  }
+
+  if (!user.accountVerified || !user.confirmationCode) {
+    return res.status(400).json({
+      error: true,
+      message: "Você precisa ativar sua conta. Por favor, cheque seu e-mail.",
     });
   }
 
@@ -71,4 +78,26 @@ const verifyToken = async (req, res) => {
   });
 };
 
-module.exports = { verifyToken, signIn };
+const verifyUser = (req, res, next) => {
+  User.findOne({
+    where: {
+      confirmationCode: req.params.confirmationCode,
+    },
+  })
+    .then((user) => {
+      if (!user) {
+        return res.status(404).send({ message: "Conta não encontrada :(" });
+      }
+
+      user.accountVerified = true;
+      user.save((err) => {
+        if (err) {
+          res.status(500).send({ message: err });
+          return;
+        }
+      });
+    })
+    .catch((e) => console.log("error", e));
+};
+
+module.exports = { verifyToken, signIn, verifyUser };

@@ -42,7 +42,7 @@ const getSchedule = async (req, res) => {
 const getScheduleById = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  await Schedule.findOne({ where: { id_schedule: id } })
+  await Schedule.findOne({ where: { schedule_id: id } })
     .then((result) => {
       res.status(200).send(result);
     })
@@ -56,8 +56,6 @@ const getScheduleById = async (req, res) => {
 
 const createSchedule = async (req, res) => {
   const { date, hour, user_id } = req.body;
-  //1-Confirmado, 2-Cancelado
-  const status = true;
 
   const allSchedule = await Schedule.findOne({
     where: {
@@ -72,12 +70,13 @@ const createSchedule = async (req, res) => {
     },
   });
 
-  if (!checkUser.account_verified) {
+  if (!checkUser.accountVerified) {
     return res.status(400).json({
       error: true,
       message: "Você precisa confirmar seu e-mail para agendar.",
     });
   }
+
   if (allSchedule && allSchedule.status) {
     return res.status(401).json({
       error: true,
@@ -85,17 +84,11 @@ const createSchedule = async (req, res) => {
     });
   }
 
-  await Schedule.create(
-    {
-      date: date,
-      hour: hour,
-      status: status,
-      user_id: user_id,
-    },
-    {
-      fields: ["date", "hour", "status", "user_id"],
-    }
-  )
+  await Schedule.create({
+    date: date,
+    hour: hour,
+    user_id: user_id,
+  })
     .then(() => {
       res.status(200).json({
         error: false,
@@ -114,19 +107,6 @@ const updateSchedule = async (req, res) => {
   const id = parseInt(req.params.id);
   const { date, hour, status } = req.body;
 
-  const allSchedule = await Schedule.findOne({
-    where: {
-      id_schedule: id
-    },
-  });
-
-  if (allSchedule && allSchedule.status == 2) {
-    return res.status(401).json({
-      error: true,
-      message: "Data ou Hora já selecionada.",
-    });
-  }
-
   await Schedule.update(
     {
       date: date,
@@ -135,7 +115,7 @@ const updateSchedule = async (req, res) => {
     },
     {
       where: {
-        id_schedule: id,
+        schedule_id: id,
       },
     }
   )
@@ -158,7 +138,7 @@ const deleteSchedule = async (req, res) => {
 
   await Schedule.destroy({
     where: {
-      id_schedule: id,
+      schedule_id: id,
     },
   })
     .then(() => {

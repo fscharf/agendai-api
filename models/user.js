@@ -4,46 +4,40 @@ const User = db.sequelize.define("users", {
   user_id: {
     type: db.Sequelize.INTEGER,
     primaryKey: true,
+    autoIncrementIdentity: true,
+    autoIncrement: true,
   },
-  name: {
+  username: {
     type: db.Sequelize.STRING,
+    allowNull: false
   },
-  hashed_password: {
+  hashedPassword: {
     type: db.Sequelize.STRING,
+    allowNull: false,
   },
   email: {
     type: db.Sequelize.STRING,
+    allowNull: false,
   },
-  address: {
-    type: db.Sequelize.STRING,
-  },
-  postal_code: {
-    type: db.Sequelize.STRING,
-  },
-  district: {
-    type: db.Sequelize.STRING,
-  },
-  city: {
-    type: db.Sequelize.STRING,
-  },
-  phone1: {
-    type: db.Sequelize.STRING,
-  },
-  phone2: {
-    type: db.Sequelize.STRING,
-  },
-  account_verified: {
+  accountVerified: {
     type: db.Sequelize.BOOLEAN,
+    allowNull: false,
+    defaultValue: false
   },
-  active: {
-    type: db.Sequelize.BOOLEAN,
-  },
-  user_type: {
+  confirmationCode: {
     type: db.Sequelize.STRING,
+    unique: true,
   },
-  created_at: {
-    type: db.Sequelize.DATEONLY,
-  }
+  isActive: {
+    type: db.Sequelize.BOOLEAN,
+    allowNull: false,
+    defaultValue: true,
+  },
+  isAdmin: {
+    type: db.Sequelize.BOOLEAN,
+    allowNull: false,
+    defaultValue: false
+  },
 });
 
 // !Important: 'sync' and 'force:true' will drop the table with the specified columns in model

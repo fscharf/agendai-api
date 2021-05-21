@@ -1,5 +1,5 @@
 // generate token using secret from process.env.JWT_SECRET
-var jwt = require('jsonwebtoken');
+var jwt = require("jsonwebtoken");
 
 // generate token and return it
 function generateToken(user) {
@@ -9,13 +9,13 @@ function generateToken(user) {
 
   var u = {
     user_id: user.user_id,
-    name: user.name,
+    username: user.username,
     email: user.email,
-    account_verified: user.account_verified
+    accountVerified: user.accountVerified,
   };
 
   return jwt.sign(u, process.env.JWT_SECRET, {
-    expiresIn: 60 * 60 * 24 // expires in 24 hours
+    expiresIn: 60 * 60 * 24, // expires in 24 hours
   });
 }
 
@@ -25,13 +25,13 @@ function getCleanUser(user) {
 
   return {
     user_id: user.user_id,
-    name: user.name,
+    username: user.username,
     email: user.email,
-    account_verified: user.account_verified
+    accountVerified: user.accountVerified,
   };
 }
 
 module.exports = {
   generateToken,
-  getCleanUser
-}
+  getCleanUser,
+};

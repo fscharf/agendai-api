@@ -10,6 +10,7 @@ router.get("/", (req, res) => {
 
 router.post("/users/signin", auth.signIn);
 router.get("/verifyToken", auth.verifyToken);
+router.get("/confirm/:confirmationCode", auth.verifyUser);
 
 router.get("/users", user.getUsers);
 router.get("/users/:id", user.getUserById);
