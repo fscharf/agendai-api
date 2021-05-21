@@ -116,8 +116,7 @@ const updateSchedule = async (req, res) => {
 
   const allSchedule = await Schedule.findOne({
     where: {
-      date: date,
-      hour: hour,
+      id_schedule: id
     },
   });
 

@@ -28,7 +28,11 @@ const signIn = async (req, res) => {
   // get basic user details
   const userObj = utils.getCleanUser(user);
   // return the token along with user details
-  return res.json({ user: userObj, token });
+  return res.json({
+    user: userObj,
+    token,
+    message: "Autenticado com sucesso.",
+  });
 };
 
 // verify the token and return it if it's valid
