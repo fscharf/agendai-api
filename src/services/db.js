@@ -1,11 +1,10 @@
 const { Sequelize } = require("sequelize");
 const { DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME } = process.env;
-const pg = require("pg");
 
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: DB_HOST,
   dialect: "postgres",
-  ssl: { rejectUnauthorized: false },
+  ssl: true,
   define: {
     timestamps: false,
     freezeTableName: true,
