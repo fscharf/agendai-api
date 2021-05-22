@@ -1,8 +1,8 @@
-const user = require("./controllers/UserController");
-const schedule = require("./controllers/ScheduleController");
+const user = require("./src/controllers/UserController");
+const schedule = require("./src/controllers/ScheduleController");
 const express = require("express");
 const router = express.Router();
-const auth = require("./services/userAuth");
+const auth = require("./src/services/userAuth");
 
 router.get("/", (req, res) => {
   res.json({ info: "Barber Shop API" });
