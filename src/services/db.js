@@ -5,10 +5,7 @@ const pg = require("pg");
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: DB_HOST,
   dialect: "postgres",
-  ssl: true,
-  dialectOptions: {
-    ssl: true,
-  },
+  ssl: { rejectUnauthorized: false },
   define: {
     timestamps: false,
     freezeTableName: true,
