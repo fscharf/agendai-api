@@ -1,18 +1,9 @@
 const validJWTNeeded = (req, res, next) => {
-  if (req.headers["authorization"]) {
-    try {
-      let authorization = req.headers["authorization"].split(" ");
-      if (authorization[0] !== "Bearer") {
-        return res.status(401).send();
-      } else {
-        req.jwt = jwt.verify(authorization[1], process.env.JWT_SECRET);
-        return next();
-      }
-    } catch (err) {
-      return res.status(403).send();
-    }
+  if (req.query.token || req.body.token) {
+    return res.status(401).send({error: true, message: "Unauthorized"});
   } else {
-    return res.status(401).send();
+    req.jwt = jwt.verify(token, process.env.JWT_SECRET);
+    return next();
   }
 };
 
