@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/users/signin", auth.signIn);
-router.get("/verifyToken", ValidationMiddleware.validJWTNeeded, auth.verifyToken);
+router.get("/verifyToken", auth.verifyToken);
 router.get("/confirm/:confirmationCode", auth.verifyUser);
 
 router.get("/users", ValidationMiddleware.validJWTNeeded, user.getUsers);
