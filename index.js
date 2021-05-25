@@ -8,6 +8,14 @@ const port = process.env.PORT;
 const corsMiddleware = require("./src/services/cors");
 
 app.use(corsMiddleware);
+app.use((req, res) => {
+  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Request-Width, Content-Type, Accept"
+  );
+});
+
 app.options("*", corsMiddleware);
 app.use(bodyParser.json());
 app.use(
