@@ -7,7 +7,7 @@ const cors = require("cors");
 const router = require("./routes");
 const port = process.env.PORT;
 
-var corsOptions = { origin: "http://localhost:3000", optionsSuccessStatus: 200, methods = "GET, POST, PUT, DELETE" };
+var corsOptions = { origin: "http://localhost:3000", optionsSuccessStatus: 200 };
 
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
