@@ -3,8 +3,11 @@ const User = require("../models/user");
 const nodemailer = require("../services/config");
 
 var jwt = require("jsonwebtoken");
+const { validJWTNeeded } = require("../services/middleware");
 
 const getUsers = async (req, res) => {
+  validJWTNeeded();
+
   await User.findAll()
     .then((results) => {
       res.status(200).send(results);
@@ -78,7 +81,8 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  const { username, email, password, checkPassword, isAdmin, isActive } = req.body;
+  const { username, email, password, checkPassword, isAdmin, isActive } =
+    req.body;
 
   const currentUser = await User.findOne({ where: { user_id: id } });
 
