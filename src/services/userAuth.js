@@ -46,7 +46,7 @@ const signIn = async (req, res) => {
 const verifyToken = async (req, res) => {
   // check header or url parameters or post parameters for token
   var token = req.body.token || req.query.token;
-  var email = req.body.user_id || req.query.user_id;
+  var user_id = req.body.user_id || req.query.user_id;
 
   const userAuth = await User.findOne({ where: { user_id: user_id } });
 
