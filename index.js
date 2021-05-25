@@ -7,7 +7,9 @@ const cors = require("cors");
 const router = require("./routes");
 const port = process.env.PORT;
 
-app.use(cors());
+var corsOptions = { origin: "http://localhost:3000" };
+
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(
   bodyParser.urlencoded({
