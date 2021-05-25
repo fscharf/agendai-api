@@ -5,7 +5,7 @@ const validJWTNeeded = (req, res, next) => {
       if (authorization[0] !== "Bearer") {
         return res.status(401).send();
       } else {
-        req.jwt = jwt.verify(authorization[1], secret);
+        req.jwt = jwt.verify(authorization[1], process.env.JWT_SECRET);
         return next();
       }
     } catch (err) {
