@@ -1,7 +1,6 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/user");
 const nodemailer = require("../services/config");
-const utils = require("../services/utils");
 
 var jwt = require("jsonwebtoken");
 
@@ -54,8 +53,10 @@ const createUser = async (req, res) => {
   }
 
   const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
+  const UUID = '_' + Math.random().toString(36).substr(2, 9);
 
   return await User.create({
+    user_id: UUID,
     username: username,
     email: email,
     hashedPassword: hashedPassword,
