@@ -55,6 +55,9 @@ const createUser = async (req, res) => {
 
   const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
 
+  const user = await User.findOne({ where: { email: email } });
+  utils.generateToken(user);
+  
   return await User.create({
     username: username,
     email: email,
@@ -63,8 +66,6 @@ const createUser = async (req, res) => {
   })
     .then(() => {
       nodemailer.sendConfirmationEmail(username, email, token);
-      const user = await User.findOne({ where: { email: email } });
-      utils.generateToken(user);
       return res.status(200).json({
         error: false,
         message: "Conta cadastrada com sucesso! Por favor, cheque seu e-mail.",
