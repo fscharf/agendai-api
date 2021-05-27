@@ -1,6 +1,7 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/user");
 const nodemailer = require("../services/config");
+const utils = require("../services/utils");
 
 var jwt = require("jsonwebtoken");
 
@@ -54,7 +55,7 @@ const createUser = async (req, res) => {
 
   const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
 
-  await User.create({
+  return await User.create({
     username: username,
     email: email,
     hashedPassword: hashedPassword,
@@ -62,6 +63,8 @@ const createUser = async (req, res) => {
   })
     .then(() => {
       nodemailer.sendConfirmationEmail(username, email, token);
+      const user = await User.findOne({ where: { email: email } });
+      utils.generateToken(user);
       return res.status(200).json({
         error: false,
         message: "Conta cadastrada com sucesso! Por favor, cheque seu e-mail.",
@@ -78,7 +81,8 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
   const id = parseInt(req.params.id);
 
-  const { username, email, password, checkPassword, isAdmin, isActive } = req.body;
+  const { username, email, password, checkPassword, isAdmin, isActive } =
+    req.body;
 
   const currentUser = await User.findOne({ where: { user_id: id } });
 
