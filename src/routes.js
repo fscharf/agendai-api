@@ -14,7 +14,7 @@ router.get("/confirm/:confirmationCode", auth.verifyUser);
 
 router.get("/users", auth.validJWTNeeded, user.getUsers);
 router.get("/users/:id", auth.validJWTNeeded, user.getUserById);
-router.post("/users", auth.validJWTNeeded, user.createUser);
+router.post("/users", user.createUser);
 router.put("/users/:id", auth.validJWTNeeded, user.updateUser);
 router.delete("/users/:id", auth.validJWTNeeded, user.deleteUser);
 

@@ -54,7 +54,7 @@ const createUser = async (req, res) => {
   }
 
   const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
- 
+
   return await User.create({
     username: username,
     email: email,
@@ -62,10 +62,15 @@ const createUser = async (req, res) => {
     confirmationCode: token,
   })
     .then(() => {
+      if (!token) {
+        return res.status(500).json({
+          error: true,
+          message: "No token provided.",
+        });
+      }
       nodemailer.sendConfirmationEmail(username, email, token);
       return res.status(200).json({
         error: false,
-        token,
         message: "Conta cadastrada com sucesso! Por favor, cheque seu e-mail.",
       });
     })
