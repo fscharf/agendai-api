@@ -62,14 +62,10 @@ const createUser = async (req, res) => {
     confirmationCode: token,
   })
     .then(() => {
-      const userToken = utils.generateToken(emailExists);
-      const userObj = utils.getCleanUser(emailExists);
-
       nodemailer.sendConfirmationEmail(username, email, token);
       return res.status(200).json({
         error: false,
-        user: userObj,
-        userToken,
+        token,
         message: "Conta cadastrada com sucesso! Por favor, cheque seu e-mail.",
       });
     })
