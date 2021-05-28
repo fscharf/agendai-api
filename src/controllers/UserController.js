@@ -18,7 +18,7 @@ const getUsers = async (req, res) => {
 };
 
 const getUserById = async (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = req.params.id;
 
   await User.findOne({ where: { user_id: id } })
 
@@ -82,7 +82,7 @@ const createUser = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = req.params.id;
 
   const { username, email, password, checkPassword, isAdmin, isActive } =
     req.body;
@@ -127,7 +127,7 @@ const updateUser = async (req, res) => {
 };
 
 const deleteUser = async (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = req.params.id;
 
   await User.destroy({
     where: {
