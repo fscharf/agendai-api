@@ -55,7 +55,7 @@ const getScheduleById = async (req, res) => {
 };
 
 const createSchedule = async (req, res) => {
-  const { date, hour, user_id } = req.body;
+  const { date, hour, user_id, description } = req.body;
 
   const allSchedule = await Schedule.findOne({
     where: {
@@ -87,6 +87,7 @@ const createSchedule = async (req, res) => {
   await Schedule.create({
     date: date,
     hour: hour,
+    description: description,
     user_id: user_id,
   })
     .then(() => {
@@ -105,12 +106,13 @@ const createSchedule = async (req, res) => {
 
 const updateSchedule = async (req, res) => {
   const id = parseInt(req.params.id);
-  const { date, hour, status } = req.body;
+  const { date, hour, status, description } = req.body;
 
   await Schedule.update(
     {
       date: date,
       hour: hour,
+      description: description,
       status: status,
     },
     {
