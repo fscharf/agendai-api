@@ -1,8 +1,6 @@
 const db = require("../services/db");
-const bcrypt = require('bcrypt');
 
-const randomKey = '_' + Math.random().toString(36).substr(2, 9);
-const userKey = bcrypt.hashSync(randomKey);
+const userKey = '_' + Math.random().toString(36).substr(2, 9);
 
 const User = db.sequelize.define("users", {
   user_id: {
