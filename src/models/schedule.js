@@ -16,6 +16,10 @@ const Schedule = db.sequelize.define("schedule", {
     type: db.Sequelize.TIME,
     allowNull: false,
   },
+  description: {
+    type: db.Sequelize.STRING,
+    allowNull: false,
+  },
   status: {
     type: db.Sequelize.BOOLEAN,
     allowNull: false,
