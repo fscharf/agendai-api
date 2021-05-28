@@ -53,10 +53,8 @@ const createUser = async (req, res) => {
   }
 
   const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
-  const UUID = '_' + Math.random().toString(36).substr(2, 9);
 
   return await User.create({
-    user_id: UUID,
     username: username,
     email: email,
     hashedPassword: hashedPassword,

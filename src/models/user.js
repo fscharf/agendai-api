@@ -1,9 +1,14 @@
 const db = require("../services/db");
+const bcrypt = require('bcrypt');
+
+const randomKey = '_' + Math.random().toString(36).substr(2, 9);
+const userKey = bcrypt.hashSync(randomKey);
 
 const User = db.sequelize.define("users", {
   user_id: {
-    type: db.Sequelize.INTEGER,
+    type: db.Sequelize.STRING,
     primaryKey: true,
+    defaultValue: userKey
   },
   username: {
     type: db.Sequelize.STRING,
