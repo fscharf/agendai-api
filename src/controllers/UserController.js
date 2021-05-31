@@ -88,15 +88,18 @@ const updateUser = async (req, res) => {
     req.body;
 
   const currentUser = await User.findOne({ where: { user_id: id } });
+  let hashedPassword;
 
-  if (!bcrypt.compareSync(checkPassword, currentUser.hashedPassword)) {
-    return res.status(400).json({
-      error: true,
-      message: "Senha atual incorreta.",
-    });
+  if (password) {
+    if (!bcrypt.compareSync(checkPassword, currentUser.hashedPassword)) {
+      return res.status(400).json({
+        error: true,
+        message: "Senha atual incorreta.",
+      });
+    }
+
+    hashedPassword = bcrypt.hashSync(password, 10);
   }
-
-  const hashedPassword = bcrypt.hashSync(password, 10);
 
   await User.update(
     {
