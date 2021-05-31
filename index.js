@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 
   // Request headers you wish to allow
   res.setHeader("Access-Control-Allow-Headers", "x-access-token");
-  res.next();
+  next();
 });
 
 app.use(bodyParser.json());
