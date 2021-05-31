@@ -5,6 +5,9 @@ const bodyParser = require("body-parser");
 const app = express();
 const router = require("./src/routes");
 const port = process.env.PORT;
+const cors = require("cors");
+
+app.use(cors());
 
 app.use((req, res, next) => {
   // Website you wish to allow to connect
