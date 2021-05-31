@@ -5,38 +5,28 @@ const bodyParser = require("body-parser");
 const app = express();
 const router = require("./src/routes");
 const port = process.env.PORT;
-const corsMiddleware = require("./src/services/cors");
 
-app.use(corsMiddleware);
+app.use((req, res, next) => {
+  // Website you wish to allow to connect
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
 
-app.options("*", corsMiddleware);
+  // Request methods you wish to allow
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "*"
+  );
+
+  // Request headers you wish to allow
+  res.setHeader("Access-Control-Allow-Headers", "x-access-token");
+  res.next();
+});
+
 app.use(bodyParser.json());
 app.use(
   bodyParser.urlencoded({
     extended: true,
   })
 );
-
-//middleware that checks if JWT token exists and verifies it if it does exist.
-//In all future routes, this helps to know if the request is authenticated or not.
-app.use(function (req, res, next) {
-  // check header or url parameters or post parameters for token
-  var token = req.headers["authorization"];
-  if (!token) return next(); //if no token, continue
-
-  token = token.replace("Bearer ", "");
-  jwt.verify(token, process.env.JWT_SECRET, function (err, user) {
-    if (err) {
-      return res.status(401).json({
-        error: true,
-        message: "Invalid user.",
-      });
-    } else {
-      req.user = user; //set the user to req so other routes can use it
-      next();
-    }
-  });
-});
 
 app.use(router);
 
