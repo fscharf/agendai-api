@@ -42,6 +42,6 @@ const User = db.sequelize.define("users", {
 });
 
 // !Important: 'sync' and 'force:true' will drop the table with the specified columns in model
-// User.sync({force: true})
+User.sync({force: true})
 
 module.exports = User;

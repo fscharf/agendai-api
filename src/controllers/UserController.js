@@ -104,8 +104,8 @@ const updateUser = async (req, res) => {
   if (email) {
     const token = jwt.sign({ email: email }, process.env.JWT_SECRET);
     req.body.accountVerified = false;
-    nodemailer.sendConfirmationEmail(username, email, token);
-    if(!token) {
+    nodemailer.sendConfirmationEmail(currentUser.username, email, token);
+    if (!token) {
       return res.status(401).json({
         error: true,
         message: "Oops, ocorreu um erro inesperado!",
@@ -113,8 +113,9 @@ const updateUser = async (req, res) => {
     }
     res.status(200).json({
       error: false,
-      message: 'E-mail atualizado com sucesso. Por favor, cheque seu e-mail para reativá-lo.',
-    })
+      message:
+        "E-mail atualizado com sucesso. Por favor, cheque seu e-mail para reativá-lo.",
+    });
   }
 
   await User.update(
