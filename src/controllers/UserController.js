@@ -101,8 +101,10 @@ const updateUser = async (req, res) => {
     hashedPassword = bcrypt.hashSync(password, 10);
   }
 
+  let token = currentUser.confirmationCode;
+
   if (email) {
-    const token = jwt.sign({ email: email }, process.env.JWT_SECRET);
+    token = jwt.sign({ email: email }, process.env.JWT_SECRET);
     req.body.accountVerified = false;
     nodemailer.sendConfirmationEmail(currentUser.username, email, token);
     if (!token) {
