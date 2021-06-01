@@ -126,6 +126,7 @@ const updateUser = async (req, res) => {
       isAdmin: isAdmin,
       isActive: isActive,
       accountVerified: req.body.accountVerified,
+      confirmationCode: token,
     },
     {
       where: {
