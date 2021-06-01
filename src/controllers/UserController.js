@@ -52,7 +52,7 @@ const createUser = async (req, res) => {
     });
   }
 
-  const token = jwt.sign({ email: req.body.email }, process.env.JWT_SECRET);
+  const token = jwt.sign({ email: email }, process.env.JWT_SECRET);
 
   return await User.create({
     username: username,
@@ -101,6 +101,22 @@ const updateUser = async (req, res) => {
     hashedPassword = bcrypt.hashSync(password, 10);
   }
 
+  if (email) {
+    const token = jwt.sign({ email: email }, process.env.JWT_SECRET);
+    req.body.accountVerified = false;
+    nodemailer.sendConfirmationEmail(username, email, token);
+    if(!token) {
+      return res.status(401).json({
+        error: true,
+        message: "Oops, ocorreu um erro inesperado!",
+      });
+    }
+    res.status(200).json({
+      error: false,
+      message: 'E-mail atualizado com sucesso. Por favor, cheque seu e-mail para reativá-lo.',
+    })
+  }
+
   await User.update(
     {
       username: username,
@@ -108,6 +124,7 @@ const updateUser = async (req, res) => {
       hashedPassword: hashedPassword,
       isAdmin: isAdmin,
       isActive: isActive,
+      accountVerified: req.body.accountVerified,
     },
     {
       where: {
