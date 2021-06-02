@@ -82,7 +82,7 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
   let id = req.params.id;
-  const confirmationCode = req.params.confirmationCode;
+  const confirmationCode = req.params.confirmationCode || req.query.confirmationCode;
 
   const {
     username,
