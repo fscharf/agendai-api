@@ -96,7 +96,7 @@ const verifyUser = async (req, res, next) => {
           res.status(500).send({ message: err });
           return;
         }
-        return res.status(200);
+        next();
       });
     })
     .catch((e) => console.log("error", e));
