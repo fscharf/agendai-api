@@ -83,7 +83,7 @@ const createUser = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
-  const id = req.params.id;
+  let id = req.params.id;
   const confirmationCode = req.params.confirmationCode;
 
   const {
@@ -96,9 +96,17 @@ const updateUser = async (req, res) => {
     isResetPassword,
   } = req.body;
 
-  const currentUser = await User.findOne({
-    where: { user_id: id, confirmationCode: confirmationCode },
-  });
+  let currentUser;
+  if (id)
+    currentUser = await User.findOne({
+      where: { user_id: id },
+    });
+  if (confirmationCode) {
+    currentUser = await User.findOne({
+      where: { confirmationCode: confirmationCode },
+    });
+  }
+
   let hashedPassword;
 
   if (password) {
@@ -135,11 +143,7 @@ const updateUser = async (req, res) => {
   }
 
   if (isResetPassword) {
-    (req, res, next) => {
-      id = currentUser.user_id;
-      req.headers(confirmationCode);
-      next();
-    };
+    id = currentUser.user_id;
   }
 
   await User.update(

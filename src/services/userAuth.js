@@ -101,8 +101,6 @@ const verifyUser = async (req, res, next) => {
     .catch((e) => console.log("error", e));
 };
 
-const isResetPassword = false;
-
 const resetPassword = async (req, res) => {
   const email = req.body.email;
 
