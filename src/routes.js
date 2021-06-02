@@ -11,6 +11,7 @@ router.get("/", (req, res) => {
 router.post("/users/signin", auth.signIn);
 router.get("/verifyToken", auth.verifyToken);
 router.get("/confirm/:confirmationCode", auth.verifyUser);
+router.post("/reset-password", auth.resetPassword);
 
 router.get("/users", auth.validJWTNeeded, user.getUsers);
 router.get("/users/:id", auth.validJWTNeeded, user.getUserById);

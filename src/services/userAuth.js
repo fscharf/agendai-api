@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const utils = require("./utils");
 const bcrypt = require("bcrypt");
 const User = require("../models/user.js");
+const nodemailer = require("../services/config");
 
 const signIn = async (req, res) => {
   const email = req.body.email;
@@ -78,8 +79,8 @@ const verifyToken = async (req, res) => {
   });
 };
 
-const verifyUser = (req, res, next) => {
-  User.findOne({
+const verifyUser = async (req, res, next) => {
+  await User.findOne({
     where: {
       confirmationCode: req.params.confirmationCode,
     },
@@ -100,6 +101,37 @@ const verifyUser = (req, res, next) => {
     .catch((e) => console.log("error", e));
 };
 
+const resetPassword = async (req, res) => {
+  const email = req.body.email;
+
+  const user = await User.findOne({ email: email });
+
+  if (!email) {
+    return res.status(400).json({
+      error: true,
+      message: "Por favor, preencha todos os campos.",
+    });
+  }
+
+  if (!user) {
+    return res.status(400).json({
+      error: true,
+      message: "E-mail não encontrado.",
+    });
+  }
+
+  nodemailer.sendResetPasswordEmail(
+    user.username,
+    email,
+    user.confirmationCode
+  );
+  return res.status(200).json({
+    error: false,
+    message: `Sucesso! Enviamos um link de atualização de senha para ${email}.`,
+  });
+
+};
+
 const validJWTNeeded = async (req, res, next) => {
   var token = req.headers["x-access-token"];
   if (!token)
@@ -116,4 +148,4 @@ const validJWTNeeded = async (req, res, next) => {
   });
 };
 
-module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded };
+module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword };
