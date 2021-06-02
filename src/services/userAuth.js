@@ -87,7 +87,7 @@ const verifyUser = async (req, res, next) => {
   })
     .then((user) => {
       if (!user) {
-        return res.status(404).send({ message: "Conta não encontrada :(" });
+        return res.status(404).send({ message: "Conta não encontrada" });
       }
 
       user.accountVerified = true;
@@ -96,6 +96,7 @@ const verifyUser = async (req, res, next) => {
           res.status(500).send({ message: err });
           return;
         }
+        return res.status(200);
       });
     })
     .catch((e) => console.log("error", e));
@@ -130,7 +131,6 @@ const resetPassword = async (req, res) => {
     error: false,
     message: `Sucesso! Enviamos um link de atualização de senha para ${email}.`,
   });
-
 };
 
 const validJWTNeeded = async (req, res, next) => {
@@ -149,4 +149,10 @@ const validJWTNeeded = async (req, res, next) => {
   });
 };
 
-module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword };
+module.exports = {
+  verifyToken,
+  signIn,
+  verifyUser,
+  validJWTNeeded,
+  resetPassword,
+};
