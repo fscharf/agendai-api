@@ -84,15 +84,28 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
   const id = req.params.id;
+  const confirmationCode = req.params.confirmationCode;
 
-  const { username, email, password, checkPassword, isAdmin, isActive } =
-    req.body;
+  const {
+    username,
+    email,
+    password,
+    checkPassword,
+    isAdmin,
+    isActive,
+    isResetPassword,
+  } = req.body;
 
-  const currentUser = await User.findOne({ where: { user_id: id } });
+  const currentUser = await User.findOne({
+    where: { user_id: id, confirmationCode: confirmationCode },
+  });
   let hashedPassword;
 
   if (password) {
-    if (!bcrypt.compareSync(checkPassword, currentUser.hashedPassword)) {
+    if (
+      checkPassword &&
+      !bcrypt.compareSync(checkPassword, currentUser.hashedPassword)
+    ) {
       return res.status(400).json({
         error: true,
         message: "Senha atual incorreta.",
@@ -124,7 +137,7 @@ const updateUser = async (req, res) => {
   if (isResetPassword) {
     (req, res, next) => {
       id = currentUser.user_id;
-      req.header(token);
+      req.headers(confirmationCode);
       next();
     };
   }

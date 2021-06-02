@@ -128,8 +128,6 @@ const resetPassword = async (req, res) => {
     user.confirmationCode
   );
 
-  isResetPassword = true;
-
   return res.status(200).json({
     error: false,
     message: `Sucesso! Enviamos um link de atualização de senha para ${email}.`,
