@@ -92,25 +92,19 @@ const verifyUser = async (req, res) => {
           .json({ error: true, message: "Usuário não encontrado." });
       }
 
+      user.accountVerified = true;
+
       user
-        .update({
-          accountVerified: true,
-        })
-        .then((res) => {
-          res.status(200).json({
-            error: false,
-            message: "Cadastro atualizado com sucesso.",
-          });
+        .save()
+        .then(() => {
+          res.status(200).json({ error: false, message: "Ok" });
         })
         .catch((err) => {
-          res.status(401).json({
-            error: true,
-            message: err,
-          });
+          res.status(400).json({ error: true, message: err });
         });
     })
     .catch((err) => {
-      res.status(400).json({ error: true, message: err });
+      res.status(401).json({ error: true, message: err });
     });
 };
 
