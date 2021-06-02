@@ -79,7 +79,7 @@ const verifyToken = async (req, res) => {
   });
 };
 
-const verifyUser = async (req, res, next) => {
+const verifyUser = async (req, res) => {
   await User.findOne({
     where: {
       confirmationCode: req.params.confirmationCode,
@@ -91,12 +91,13 @@ const verifyUser = async (req, res, next) => {
       }
 
       user.accountVerified = true;
+
       user.save((err) => {
         if (err) {
           res.status(500).send({ message: err });
-          return;
+        } else {
+          res.status(200).send({ message: "OK" });
         }
-        res.status(200).send({ message: "OK" });
       });
     })
     .catch((e) => console.log("error", e));
