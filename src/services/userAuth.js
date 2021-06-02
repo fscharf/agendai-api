@@ -80,7 +80,7 @@ const verifyToken = async (req, res) => {
 };
 
 const verifyUser = async (req, res) => {
-  const cUser = await User.findOne({
+  await User.findOne({
     where: {
       confirmationCode: req.params.confirmationCode,
     },
@@ -93,16 +93,9 @@ const verifyUser = async (req, res) => {
       }
 
       user
-        .update(
-          {
-            accountVerified: true,
-          },
-          {
-            where: {
-              user_id: cUser.user_id,
-            },
-          }
-        )
+        .update({
+          accountVerified: true,
+        })
         .then((res) => {
           res.status(200).json({
             error: false,
