@@ -1,9 +1,7 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/user");
 const nodemailer = require("../services/config");
-
 var jwt = require("jsonwebtoken");
-const { isResetPassword } = require("../services/userAuth");
 
 const getUsers = async (req, res) => {
   await User.findAll()

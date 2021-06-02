@@ -149,4 +149,4 @@ const validJWTNeeded = async (req, res, next) => {
   });
 };
 
-module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword, isResetPassword };
+module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword };
