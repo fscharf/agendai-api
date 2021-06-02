@@ -92,12 +92,13 @@ const verifyUser = async (req, res) => {
           .json({ error: true, message: "Usuário não encontrado." });
       }
 
+      const token = utils.generateToken(user);
       user.accountVerified = true;
 
       user
         .save()
         .then(() => {
-          res.status(200).json({ error: false, message: "Ok" });
+          res.status(200).json({ error: false, message: "Ok", token });
         })
         .catch((err) => {
           res.status(400).json({ error: true, message: err });
