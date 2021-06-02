@@ -92,7 +92,7 @@ const verifyUser = async (req, res) => {
           .json({ error: true, message: "Usuário não encontrado." });
       }
 
-      await user
+      user
         .update(
           {
             accountVerified: true,
