@@ -3,6 +3,7 @@ const User = require("../models/user");
 const nodemailer = require("../services/config");
 
 var jwt = require("jsonwebtoken");
+const { isResetPassword } = require("../services/userAuth");
 
 const getUsers = async (req, res) => {
   await User.findAll()
@@ -118,6 +119,14 @@ const updateUser = async (req, res) => {
       message:
         "E-mail atualizado com sucesso. Por favor, cheque seu e-mail para reativá-lo.",
     });
+  }
+
+  if (isResetPassword) {
+    (req, res, next) => {
+      id = currentUser.user_id;
+      req.header(token);
+      next();
+    };
   }
 
   await User.update(

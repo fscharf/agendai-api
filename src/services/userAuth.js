@@ -101,6 +101,8 @@ const verifyUser = async (req, res, next) => {
     .catch((e) => console.log("error", e));
 };
 
+const isResetPassword = false;
+
 const resetPassword = async (req, res) => {
   const email = req.body.email;
 
@@ -125,6 +127,9 @@ const resetPassword = async (req, res) => {
     email,
     user.confirmationCode
   );
+
+  isResetPassword = true;
+
   return res.status(200).json({
     error: false,
     message: `Sucesso! Enviamos um link de atualização de senha para ${email}.`,
@@ -148,4 +153,4 @@ const validJWTNeeded = async (req, res, next) => {
   });
 };
 
-module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword };
+module.exports = { verifyToken, signIn, verifyUser, validJWTNeeded, resetPassword, isResetPassword };
