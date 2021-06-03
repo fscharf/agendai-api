@@ -12,12 +12,12 @@ router.post("/users/signin", auth.signIn);
 router.get("/verifyToken", auth.verifyToken);
 router.get("/confirm/:confirmationCode", auth.verifyUser);
 router.post("/reset-password", auth.resetPassword);
+router.put("/reset-password/:confirmationCode", auth.validJWTNeeded, user.updateUser);
 
 router.get("/users", auth.validJWTNeeded, user.getUsers);
 router.get("/users/:id", auth.validJWTNeeded, user.getUserById);
 router.post("/users", user.createUser);
 router.put("/users/:id", auth.validJWTNeeded, user.updateUser);
-router.put("/users/:confirmationCode", auth.validJWTNeeded, user.updateUser);
 router.delete("/users/:id", auth.validJWTNeeded, user.deleteUser);
 
 router.get("/schedule", auth.validJWTNeeded, schedule.getSchedule);
