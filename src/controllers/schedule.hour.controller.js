@@ -41,7 +41,7 @@ const getScheduleHourById = async (req, res) => {
 };
 
 const createScheduleHour = async (req, res) => {
-  const hour = req.body;
+  const { hour } = req.body;
   const date = null;
 
   await ScheduleHour.create({
