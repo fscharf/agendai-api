@@ -42,9 +42,11 @@ const getScheduleHourById = async (req, res) => {
 
 const createScheduleHour = async (req, res) => {
   const hour = req.body;
+  const date = null;
 
   await ScheduleHour.create({
     hour: hour,
+    date: date,
   })
     .then(() =>
       res.status(200).send({ error: false, message: "Adicionado com sucesso!" })
