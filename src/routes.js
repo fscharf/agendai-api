@@ -41,7 +41,7 @@ router.post(
   auth.validJWTNeeded,
   scheduleHour.createScheduleHour
 );
-router.get(
+router.delete(
   "/scheduleHour/:id",
   auth.validJWTNeeded,
   scheduleHour.deleteScheduleHour
