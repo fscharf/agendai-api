@@ -1,5 +1,5 @@
-const Schedule = require("../models/schedule");
-const User = require("../models/user");
+const Schedule = require("../models/schedule.model");
+const User = require("../models/user.model");
 const { Op } = require("sequelize");
 
 const getSchedule = async (req, res) => {

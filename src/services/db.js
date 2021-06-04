@@ -11,7 +11,7 @@ const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
     }
   },
   define: {
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     camelCase: false,
   },
