@@ -12,6 +12,7 @@ function generateToken(user) {
     username: user.username,
     email: user.email,
     accountVerified: user.accountVerified,
+    isAdmin: user.isAdmin,
   };
 
   return jwt.sign(u, process.env.JWT_SECRET, {
@@ -28,6 +29,7 @@ function getCleanUser(user) {
     username: user.username,
     email: user.email,
     accountVerified: user.accountVerified,
+    isAdmin: user.isAdmin,
   };
 }
 
