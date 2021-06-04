@@ -4,10 +4,9 @@ const scheduleHour = require("./controllers/schedule.hour.controller");
 const express = require("express");
 const router = express.Router();
 const auth = require("./services/userAuth");
-const index = require("./index.html");
 
 router.get("/", (req, res) => {
-  res.render(index);
+  res.send({ message: "Hello, welcome to agendaí API!" });
 });
 
 //User Authentication
