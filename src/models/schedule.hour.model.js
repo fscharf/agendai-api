@@ -14,9 +14,6 @@ const ScheduleHour = db.sequelize.define("schedule_hour", {
   },
   date: {
     type: db.Sequelize.DATEONLY,
-  },
-  description: {
-    type: db.Sequelize.STRING,
   }
 });
 

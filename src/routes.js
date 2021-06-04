@@ -36,10 +36,20 @@ router.delete("/schedule/:id", auth.validJWTNeeded, schedule.deleteSchedule);
 
 //Schedule Hour
 router.get("/scheduleHour", auth.validJWTNeeded, scheduleHour.getScheduleHour);
+router.get(
+  "/scheduleHour/:id",
+  auth.validJWTNeeded,
+  scheduleHour.getScheduleHourById
+);
 router.post(
   "/scheduleHour",
   auth.validJWTNeeded,
   scheduleHour.createScheduleHour
+);
+router.put(
+  "/scheduleHour/:id",
+  auth.validJWTNeeded,
+  scheduleHour.updateScheduleHour
 );
 router.delete(
   "/scheduleHour/:id",
