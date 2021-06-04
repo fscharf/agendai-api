@@ -1,5 +1,5 @@
 const db = require("../services/db");
-const User = require("./user");
+const User = require("./user.model");
 
 const Schedule = db.sequelize.define("schedule", {
   schedule_id: {
