@@ -7,27 +7,29 @@ const getScheduleHour = (req, res) => {
 };
 
 const createScheduleHour = (req, res) => {
-    const hour = req.body.hour;
+  const hour = req.body.hour;
 
-    ScheduleHour.create({
-        hour: hour
-    })
+  ScheduleHour.create({
+    hour: hour,
+  })
     .then(() => res.status(200))
-    .catch((err) => res.status(400).send({ error: true, message: err }))
+    .catch((err) => res.status(400).send({ error: true, message: err }));
 };
 
 const deleteScheduleHour = (req, res) => {
-    const id = req.params.id;
+  const id = req.params.id;
 
-    ScheduleHour.destroy({
-        where: {
-            _id = id
-        }
-    })
+  ScheduleHour.destroy({
+    where: {
+      _id: id,
+    },
+  })
     .then(() => res.status(200))
-    .catch((err) => res.status(400).send({ error: true, message: err }))
-}
+    .catch((err) => res.status(400).send({ error: true, message: err }));
+};
 
 module.exports = {
-    getScheduleHour, createScheduleHour, deleteScheduleHour
-}
+  getScheduleHour,
+  createScheduleHour,
+  deleteScheduleHour,
+};
