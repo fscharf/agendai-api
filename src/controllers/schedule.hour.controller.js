@@ -43,16 +43,6 @@ const getScheduleHourById = async (req, res) => {
 const createScheduleHour = async (req, res) => {
   const hour = req.body;
 
-  const checkScheduleHour = await ScheduleHour.findOne({
-    where: { hour: hour },
-  });
-
-  if (checkScheduleHour) {
-    return res
-      .status(400)
-      .send({ error: true, message: "Hora já selecionada" });
-  }
-
   await ScheduleHour.create({
     hour: hour,
   })
