@@ -1,4 +1,5 @@
 const db = require("../services/db");
+const ScheduleHour = require("./schedule.hour.model");
 const User = require("./user.model");
 
 const Schedule = db.sequelize.define("schedule", {
@@ -31,8 +32,12 @@ Schedule.belongsTo(User, {
   foreignKey: "user_id",
 });
 
+Schedule.belongsTo(ScheduleHour, {
+  foreignKey: "schedule_hour_id",
+});
+
 // !Important: 'sync' and 'force:true' will drop the table with the specified columns in model
-// Schedule.sync({force: true})
+Schedule.sync({force: true})
 //
 
 module.exports = Schedule;
