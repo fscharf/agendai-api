@@ -22,6 +22,11 @@ const getSchedule = async (req, res) => {
         [Op.eq]: req.query.user_id,
       };
     }
+    if (req.query.schedule_hour_id) {
+      condition.user_id = {
+        [Op.eq]: req.query.user_id,
+      };
+    }
     return condition;
   };
 
@@ -55,7 +60,7 @@ const getScheduleById = async (req, res) => {
 };
 
 const createSchedule = async (req, res) => {
-  const { date, hour, user_id, description } = req.body;
+  const { date, hour, user_id, description, schedule_hour_id } = req.body;
 
   const allSchedule = await Schedule.findOne({
     where: {
@@ -89,6 +94,7 @@ const createSchedule = async (req, res) => {
     hour: hour,
     description: description,
     user_id: user_id,
+    schedule_hour_id: schedule_hour_id,
   })
     .then(() => {
       res.status(200).json({
