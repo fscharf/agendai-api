@@ -38,6 +38,5 @@ Schedule.belongsTo(ScheduleHour, {
 
 // !Important: 'sync' and 'force:true' will drop the table with the specified columns in model
 Schedule.sync({force: true})
-//
 
 module.exports = Schedule;

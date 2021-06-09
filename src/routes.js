@@ -6,7 +6,7 @@ const router = express.Router();
 const auth = require("./services/userAuth");
 
 router.get("/", (req, res) => {
-  res.send({ message: "Hello, welcome to agendaí API!" });
+  res.send({ message: "Welcome to Node Web API!" });
 });
 
 //User Authentication

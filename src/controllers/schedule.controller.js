@@ -1,6 +1,7 @@
 const Schedule = require("../models/schedule.model");
 const User = require("../models/user.model");
 const { Op } = require("sequelize");
+const ScheduleHour = require("../models/schedule.hour.model");
 
 const getSchedule = async (req, res) => {
   const getScheduleConditions = () => {
@@ -30,6 +31,8 @@ const getSchedule = async (req, res) => {
     return condition;
   };
 
+  const errorMsg = "Oops, ocorreu um erro: ";
+
   await Schedule.findAll({
     where: getScheduleConditions(req),
   })
@@ -39,7 +42,7 @@ const getSchedule = async (req, res) => {
     .catch((err) => {
       res.status(401).json({
         error: true,
-        message: "Oops, ocorreu um erro: " + err,
+        message: errorMsg + err,
       });
     });
 };
@@ -54,13 +57,13 @@ const getScheduleById = async (req, res) => {
     .catch((err) => {
       res.status(401).json({
         error: true,
-        message: "Oops, ocorreu um erro: " + err,
+        message: errorMsg + err,
       });
     });
 };
 
 const createSchedule = async (req, res) => {
-  const { date, hour, user_id, description, schedule_hour_id } = req.body;
+  const { date, hour, user_id, description } = req.body;
 
   const allSchedule = await Schedule.findOne({
     where: {
@@ -72,6 +75,12 @@ const createSchedule = async (req, res) => {
   const checkUser = await User.findOne({
     where: {
       user_id: user_id,
+    },
+  });
+
+  const checkHour = await ScheduleHour.findOne({
+    where: {
+      hour: hour,
     },
   });
 
@@ -94,7 +103,7 @@ const createSchedule = async (req, res) => {
     hour: hour,
     description: description,
     user_id: user_id,
-    schedule_hour_id: schedule_hour_id,
+    schedule_hour_id: checkHour._id,
   })
     .then(() => {
       res.status(200).json({
@@ -105,7 +114,7 @@ const createSchedule = async (req, res) => {
     .catch((err) => {
       res.status(401).json({
         error: true,
-        message: "Oops, ocorreu um erro: " + err,
+        message: errorMsg + err,
       });
     });
 };
@@ -136,7 +145,7 @@ const updateSchedule = async (req, res) => {
     .catch((err) => {
       res.status(401).json({
         error: true,
-        message: "Oops, ocorreu um erro: " + err,
+        message: errorMsg + err,
       });
     });
 };
@@ -158,7 +167,7 @@ const deleteSchedule = async (req, res) => {
     .catch((err) => {
       res.status(401).json({
         error: true,
-        message: "Oops, ocorreu um erro: " + err,
+        message: errorMsg + err,
       });
     });
 };
