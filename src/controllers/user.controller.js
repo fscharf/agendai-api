@@ -30,7 +30,7 @@ const getUsers = async (req, res) => {
     return condition;
   };
 
-  await User.findAll({ where: getQueryParams() })
+  await User.findAll({ where: getQueryParams(req) })
     .then((results) => {
       res.status(200).send(results);
     })

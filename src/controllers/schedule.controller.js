@@ -6,7 +6,7 @@ const ScheduleHour = require("../models/schedule.hour.model");
 const getSchedule = async (req, res) => {
   const { date, hour, status, user_id, schedule_hour_id } = req.query;
 
-  const getQueryParams = () => {
+  const getQueryParams = (req) => {
     var condition = {};
 
     if (date) {
