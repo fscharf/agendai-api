@@ -11,16 +11,16 @@ const getUsers = async (req, res) => {
     var condition = {};
 
     if (username) {
-      condition.username = username;
+      condition.username = { [Op.like]: "%" + username + "%" };
     }
     if (email) {
-      condition.email = email;
+      condition.email = { [Op.like]: "%" + email + "%" };
     }
     if (isAdmin) {
-      condition.isAdmin = isAdmin;
+      condition.isAdmin = { [Op.eq]: isAdmin };
     }
     if (isActive) {
-      condition.isActive = isActive;
+      condition.isActive = { [Op.eq]: isActive };
     }
 
     return condition;
