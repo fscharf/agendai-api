@@ -12,12 +12,12 @@ const getUsers = async (req, res) => {
 
     if (username) {
       condition.username = {
-        [Op.or]: [username, query],
+        [Op.or]: { [Op.like]: [username, query] },
       };
     }
     if (email) {
       condition.email = {
-        [Op.or]: [email, query],
+        [Op.or]: { [Op.like]: [email, query] },
       };
     }
     if (isAdmin) {
@@ -30,7 +30,7 @@ const getUsers = async (req, res) => {
     return condition;
   };
 
-  await User.findAll({ where: getQueryParams(req) })
+  await User.findAll({ where: getQueryParams() })
     .then((results) => {
       res.status(200).send(results);
     })
