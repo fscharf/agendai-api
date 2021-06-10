@@ -11,13 +11,17 @@ const getUsers = async (req, res) => {
     var condition = {};
 
     if (username) {
-      condition.username = {
-        [Op.like]: { [Op.or]: [`%${username}%`, `%${query}%`] },
-      };
+      condition.username = username;
     }
     if (email) {
+      condition.email = email;
+    }
+    if (query) {
+      condition.username = {
+        [Op.like]: `%${query}%`,
+      };
       condition.email = {
-        [Op.like]: { [Op.or]: [`%${email}%`, `%${query}%`] },
+        [Op.like]: `%${query}%`,
       };
     }
     if (isAdmin) {
