@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const User = require("../models/user.model");
 const nodemailer = require("../services/config");
 var jwt = require("jsonwebtoken");
+const { Op } = require("sequelize/types");
 
 const getUsers = async (req, res) => {
   const { username, email, isActive, isAdmin } = req.query;
@@ -25,7 +26,7 @@ const getUsers = async (req, res) => {
     return condition;
   };
 
-  await User.findAll({ where: getQueryParams() })
+  await User.findAll({ where: { [Op.like]: getQueryParams() } })
     .then((results) => {
       res.status(200).send(results);
     })
