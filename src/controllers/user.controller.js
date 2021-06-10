@@ -4,7 +4,28 @@ const nodemailer = require("../services/config");
 var jwt = require("jsonwebtoken");
 
 const getUsers = async (req, res) => {
-  await User.findAll()
+  const { username, email, isActive, isAdmin } = req.query;
+
+  const getQueryParams = () => {
+    var condition = {};
+
+    if (username) {
+      condition.username = username;
+    }
+    if (email) {
+      condition.email = email;
+    }
+    if (isAdmin) {
+      condition.isAdmin = isAdmin;
+    }
+    if (isActive) {
+      condition.isActive = isActive;
+    }
+
+    return condition;
+  };
+
+  await User.findAll({ where: getQueryParams() })
     .then((results) => {
       res.status(200).send(results);
     })
@@ -82,7 +103,8 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
   let id = req.params.id;
-  let confirmationCode = req.params.confirmationCode || req.query.confirmationCode;
+  let confirmationCode =
+    req.params.confirmationCode || req.query.confirmationCode;
 
   const {
     username,
