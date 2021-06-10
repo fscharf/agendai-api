@@ -5,16 +5,16 @@ var jwt = require("jsonwebtoken");
 const { Op } = require("sequelize");
 
 const getUsers = async (req, res) => {
-  const { username, email, isActive, isAdmin } = req.query;
+  const { username, email, isActive, isAdmin, query } = req.query;
 
   const getQueryParams = () => {
     var condition = {};
 
     if (username) {
-      condition.username = { [Op.like]: "%" + username + "%" };
+      condition.username = { [Op.like]: "%" + username || query + "%" };
     }
     if (email) {
-      condition.email = { [Op.like]: "%" + email + "%" };
+      condition.email = { [Op.like]: "%" + email || query + "%" };
     }
     if (isAdmin) {
       condition.isAdmin = { [Op.eq]: isAdmin };

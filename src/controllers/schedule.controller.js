@@ -4,29 +4,27 @@ const { Op } = require("sequelize");
 const ScheduleHour = require("../models/schedule.hour.model");
 
 const getSchedule = async (req, res) => {
-  const getScheduleConditions = () => {
+  const { date, hour, status, user_id, schedule_hour_id } = req.query;
+
+  const getQueryParams = () => {
     var condition = {};
 
-    if (req.query.date) {
-      condition.date = req.query.date;
+    if (date) {
+      condition.date = date;
     }
-    if (req.query.hour) {
-      condition.hour = req.query.hour;
+    if (hour) {
+      condition.hour = hour;
     }
-    if (req.query.status) {
+    if (status) {
       condition.status = {
-        [Op.eq]: req.query.status,
+        [Op.eq]: status,
       };
     }
-    if (req.query.user_id) {
-      condition.user_id = {
-        [Op.eq]: req.query.user_id,
-      };
+    if (user_id) {
+      condition.user_id = user_id;
     }
-    if (req.query.schedule_hour_id) {
-      condition.user_id = {
-        [Op.eq]: req.query.user_id,
-      };
+    if (schedule_hour_id) {
+      condition.schedule_hour_id = schedule_hour_id;
     }
     return condition;
   };
@@ -34,7 +32,7 @@ const getSchedule = async (req, res) => {
   const errorMsg = "Oops, ocorreu um erro: ";
 
   await Schedule.findAll({
-    where: getScheduleConditions(req),
+    where: getQueryParams(),
   })
     .then((results) => {
       res.status(200).send(results);
