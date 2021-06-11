@@ -133,6 +133,8 @@ const updateUser = async (req, res) => {
     isResetPassword,
   } = req.body;
 
+  const emailExists = await User.findOne({ where: { email: email } });
+
   let currentUser;
   if (id)
     currentUser = await User.findOne({
@@ -163,15 +165,23 @@ const updateUser = async (req, res) => {
   let token = currentUser.confirmationCode;
 
   if (email) {
-    token = jwt.sign({ email: email }, process.env.JWT_SECRET);
-    req.body.accountVerified = false;
-    nodemailer.sendConfirmationEmail(currentUser.username, email, token);
+    if (emailExists) {
+      return res.status(401).json({
+        error: true,
+        message: "E-mail já cadastrado.",
+      });
+    }
+
     if (!token) {
       return res.status(401).json({
         error: true,
         message: "Oops, ocorreu um erro inesperado!",
       });
     }
+
+    token = jwt.sign({ email: email }, process.env.JWT_SECRET);
+    req.body.accountVerified = false;
+    nodemailer.sendConfirmationEmail(currentUser.username, email, token);
     res.status(200).json({
       error: false,
       message:
