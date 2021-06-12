@@ -133,9 +133,8 @@ const updateUser = async (req, res) => {
     isResetPassword,
   } = req.body;
 
-  const emailExists = await User.findOne({ where: { email: email } });
-
   let currentUser;
+  
   if (id)
     currentUser = await User.findOne({
       where: { user_id: id },
@@ -165,6 +164,8 @@ const updateUser = async (req, res) => {
   let token = currentUser.confirmationCode;
 
   if (email) {
+    const emailExists = await User.findOne({ where: { email: email } });
+
     if (emailExists) {
       return res.status(401).json({
         error: true,

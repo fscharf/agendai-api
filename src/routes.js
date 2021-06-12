@@ -25,8 +25,6 @@ router.get("/users", auth.validJWTNeeded, user.getUsers);
 router.get("/users/:id", auth.validJWTNeeded, user.getUserById);
 router.post("/users", user.createUser);
 router.put("/users/:id", auth.validJWTNeeded, user.updateUser);
-//test
-router.patch("/users/:id", auth.validJWTNeeded, user.updateUser);
 router.delete("/users/:id", auth.validJWTNeeded, user.deleteUser);
 
 //Schedule
@@ -34,8 +32,6 @@ router.get("/schedule", auth.validJWTNeeded, schedule.getSchedule);
 router.get("/schedule/:id", auth.validJWTNeeded, schedule.getScheduleById);
 router.post("/schedule", auth.validJWTNeeded, schedule.createSchedule);
 router.put("/schedule/:id", auth.validJWTNeeded, schedule.updateSchedule);
-//test
-router.patch("/schedule/:id", auth.validJWTNeeded, schedule.updateSchedule);
 router.delete("/schedule/:id", auth.validJWTNeeded, schedule.deleteSchedule);
 
 //Schedule Hour
@@ -51,12 +47,6 @@ router.post(
   scheduleHour.createScheduleHour
 );
 router.put(
-  "/scheduleHour/:id",
-  auth.validJWTNeeded,
-  scheduleHour.updateScheduleHour
-);
-//test
-router.patch(
   "/scheduleHour/:id",
   auth.validJWTNeeded,
   scheduleHour.updateScheduleHour
