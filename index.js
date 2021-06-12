@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 const express = require("express");
-const bodyParser = require("body-parser");
 const app = express();
 const router = require("./src/routes");
 const port = process.env.PORT;
@@ -10,13 +9,13 @@ app.use(
   cors({
     credentials: true,
     allowedHeaders: "*",
-    origin: "*",
+    origin: "http://localhost:3000",
   })
 );
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(
-  bodyParser.urlencoded({
+  express.urlencoded({
     extended: true,
   })
 );
