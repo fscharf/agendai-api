@@ -67,9 +67,7 @@ const createSchedule = async (req, res) => {
   const allSchedule = await Schedule.findOne({
     where: {
       date: date,
-      hour: {
-        [Op.like]: hour,
-      },
+      hour: hour,
     },
   });
 
