@@ -1,7 +1,18 @@
 const ScheduleHour = require("../models/schedule.hour.model");
 
 const get = async (req, res) => {
-  await ScheduleHour.findAll({ where: { hour: req.query.hour } })
+  const { hour } = req.query;
+
+  const getQueryParams = () => {
+    var condition = {};
+
+    if (hour) {
+      condition.hour = hour;
+    }
+    return condition;
+  };
+
+  await ScheduleHour.findAll({ where: getQueryParams(req) })
     .then((result) => res.status(200).send(result))
     .catch((err) => res.status(400).send({ error: true, message: err }));
 };

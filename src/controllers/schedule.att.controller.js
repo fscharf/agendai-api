@@ -1,7 +1,18 @@
 const ScheduleAtt = require("../models/schedule.att.model");
 
 const get = async (req, res) => {
-  await ScheduleAtt.findAll({ where: { description: req.query.description } })
+  const { description } = req.query;
+
+  const getQueryParams = () => {
+    var condition = {};
+
+    if (description) {
+      condition.description = description;
+    }
+    return condition;
+  };
+
+  await ScheduleAtt.findAll({ where: getQueryParams(req) })
     .then((result) => res.status(200).send(result))
     .catch((err) => res.status(400).send({ error: true, message: err }));
 };
