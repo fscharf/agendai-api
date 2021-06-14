@@ -2,6 +2,7 @@ const Schedule = require("../models/schedule.model");
 const User = require("../models/user.model");
 const { Op } = require("sequelize");
 const ScheduleHour = require("../models/schedule.hour.model");
+const ScheduleAtt = require("../models/schedule.att.model");
 
 const getSchedule = async (req, res) => {
   const { date, hour, status, user_id, schedule_hour_id } = req.query;
@@ -82,6 +83,12 @@ const createSchedule = async (req, res) => {
     },
   });
 
+  const checkAtt = await ScheduleAtt.findOne({
+    where: {
+      description: description,
+    },
+  });
+
   if (!checkUser.accountVerified) {
     return res.status(400).json({
       error: true,
@@ -102,6 +109,7 @@ const createSchedule = async (req, res) => {
     description: description,
     user_id: user_id,
     schedule_hour_id: checkHour._id,
+    schedule_att_id: checkAtt._id,
   })
     .then(() => {
       res.status(200).json({
