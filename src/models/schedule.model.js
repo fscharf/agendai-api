@@ -1,4 +1,5 @@
 const db = require("../services/db");
+const ScheduleAtt = require("./schedule.att.model");
 const ScheduleHour = require("./schedule.hour.model");
 const User = require("./user.model");
 
@@ -6,7 +7,6 @@ const Schedule = db.sequelize.define("schedule", {
   schedule_id: {
     type: db.Sequelize.INTEGER,
     primaryKey: true,
-    autoIncrementIdentity: true,
     autoIncrement: true,
   },
   date: {
@@ -36,7 +36,12 @@ Schedule.belongsTo(ScheduleHour, {
   foreignKey: "schedule_hour_id",
 });
 
+Schedule.belongsTo(ScheduleAtt, {
+  foreignKey: "schedule_att_id",
+});
+
 // !Important: 'sync' and 'force:true' will drop the table with the specified columns in model
-Schedule.sync({force: true})
+Schedule.sync({ force: true });
+ScheduleAtt.sync({ force: true });
 
 module.exports = Schedule;

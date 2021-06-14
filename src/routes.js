@@ -1,12 +1,13 @@
 const user = require("./controllers/user.controller");
 const schedule = require("./controllers/schedule.controller");
 const scheduleHour = require("./controllers/schedule.hour.controller");
+const scheduleAtt = require("./controllers/schedule.att.controller");
 const express = require("express");
 const router = express.Router();
 const auth = require("./services/userAuth");
 
 router.get("/", (req, res) => {
-  res.send({ message: "Welcome to Node Web API!" });
+  res.send({ message: "Web API" });
 });
 
 //User Authentication
@@ -35,26 +36,17 @@ router.put("/schedule/:id", auth.validJWTNeeded, schedule.updateSchedule);
 router.delete("/schedule/:id", auth.validJWTNeeded, schedule.deleteSchedule);
 
 //Schedule Hour
-router.get("/scheduleHour", auth.validJWTNeeded, scheduleHour.getScheduleHour);
-router.get(
-  "/scheduleHour/:id",
-  auth.validJWTNeeded,
-  scheduleHour.getScheduleHourById
-);
-router.post(
-  "/scheduleHour",
-  auth.validJWTNeeded,
-  scheduleHour.createScheduleHour
-);
-router.put(
-  "/scheduleHour/:id",
-  auth.validJWTNeeded,
-  scheduleHour.updateScheduleHour
-);
-router.delete(
-  "/scheduleHour/:id",
-  auth.validJWTNeeded,
-  scheduleHour.deleteScheduleHour
-);
+router.get("/scheduleHour", auth.validJWTNeeded, scheduleHour.get);
+router.get("/scheduleHour/:id", auth.validJWTNeeded, scheduleHour.getById);
+router.post("/scheduleHour", auth.validJWTNeeded, scheduleHour.create);
+router.put("/scheduleHour/:id", auth.validJWTNeeded, scheduleHour.update);
+router.delete("/scheduleHour/:id", auth.validJWTNeeded, scheduleHour.destroy);
+
+//Schedule Attendance
+router.get("/schedule-att", auth.validJWTNeeded, scheduleAtt.get);
+router.get("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.getById);
+router.post("/schedule-att", auth.validJWTNeeded, scheduleAtt.create);
+router.put("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.update);
+router.delete("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.destroy);
 
 module.exports = router;

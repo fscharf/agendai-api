@@ -1,7 +1,7 @@
-const ScheduleHour = require("../models/schedule.hour.model");
+const ScheduleAtt = require("../models/schedule.att.model");
 
 const get = async (req, res) => {
-  await ScheduleHour.findAll({ where: { hour: req.query.hour } })
+  await ScheduleAtt.findAll({ where: { description: req.query.description } })
     .then((result) => res.status(200).send(result))
     .catch((err) => res.status(400).send({ error: true, message: err }));
 };
@@ -9,7 +9,7 @@ const get = async (req, res) => {
 const getById = async (req, res) => {
   const id = req.params.id;
 
-  await ScheduleHour.findOne({
+  await ScheduleAtt.findOne({
     where: {
       _id: id,
     },
@@ -19,10 +19,10 @@ const getById = async (req, res) => {
 };
 
 const create = async (req, res) => {
-  const { hour } = req.body;
+  const { description } = req.body;
 
-  await ScheduleHour.create({
-    hour: hour,
+  await ScheduleAtt.create({
+    description: description,
   })
     .then(() =>
       res.status(200).send({ error: false, message: "Adicionado com sucesso!" })
@@ -31,12 +31,12 @@ const create = async (req, res) => {
 };
 
 const update = async (req, res) => {
+  const { description } = req.body;
   const id = req.params.id;
-  const { hour } = req.body;
 
-  await ScheduleHour.update(
+  await ScheduleAtt.update(
     {
-      hour: hour,
+      description: description,
     },
     {
       where: {
@@ -53,7 +53,7 @@ const update = async (req, res) => {
 const destroy = async (req, res) => {
   const id = req.params.id;
 
-  await ScheduleHour.destroy({
+  await ScheduleAtt.destroy({
     where: {
       _id: id,
     },
