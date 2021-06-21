@@ -123,7 +123,7 @@ const updateUser = async (req, res) => {
   let confirmationCode =
     req.params.confirmationCode || req.query.confirmationCode;
 
-  const {
+  let {
     username,
     email,
     password,
@@ -134,7 +134,7 @@ const updateUser = async (req, res) => {
   } = req.body;
 
   let currentUser;
-  
+
   if (id)
     currentUser = await User.findOne({
       where: { user_id: id },
@@ -193,6 +193,9 @@ const updateUser = async (req, res) => {
   if (isResetPassword) {
     token = jwt.sign({ email: email }, process.env.JWT_SECRET);
     id = currentUser.user_id;
+  }
+
+  if (isResetPassword && !currentUser.isActive) {
     isActive = true;
   }
 
