@@ -193,9 +193,6 @@ const updateUser = async (req, res) => {
   if (isResetPassword) {
     token = jwt.sign({ email: email }, process.env.JWT_SECRET);
     id = currentUser.user_id;
-  }
-
-  if (isResetPassword && !currentUser.isActive) {
     isActive = true;
   }
 
