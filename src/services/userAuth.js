@@ -31,6 +31,13 @@ const signIn = async (req, res) => {
     });
   }
 
+  if (!user.isActive) {
+    return res.status(400).json({
+      error: true,
+      message: "Sua conta foi desativada. Não é possível continuar.",
+    });
+  }
+
   // generate token
   const token = utils.generateToken(user);
   // get basic user details
@@ -47,9 +54,9 @@ const signIn = async (req, res) => {
 const verifyToken = async (req, res) => {
   // check header or url parameters or post parameters for token
   var token = req.body.token || req.query.token;
-  var email = req.body.email || req.query.email;
+  var id = req.body._id || req.query._id;
 
-  const userAuth = await User.findOne({ where: { email: email } });
+  const userAuth = await User.findOne({ where: { user_id: id } });
 
   if (!token) {
     return res.status(400).json({
@@ -124,7 +131,7 @@ const resetPassword = async (req, res) => {
   if (!user) {
     return res.status(400).json({
       error: true,
-      message: "E-mail não encontrado.",
+      message: "Usuário não encontrado.",
     });
   }
 
