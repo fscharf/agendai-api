@@ -30,15 +30,11 @@ app.use(
 
 app.use(router);
 
-app.get('/ctrl-system', (req, res) => {
-  const data = getCtrlData()
-  res.send(data)
-});
+let ctrlSystem = require("./src/models/json/ctrl_system.json");
 
-const getCtrlData = () => {
-  const jsonData = fs.readFileSync('./src/models/json/ctrl_system.json')
-  return JSON.parse(jsonData)    
-}
+app.get('/ctrl-system', (req, res) => {
+  res.send(ctrlSystem);
+});
 
 app.listen(port, () => {
   console.log(`App running on port ${port}`);

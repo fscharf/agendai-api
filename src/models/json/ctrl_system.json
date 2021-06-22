@@ -1,4 +1,5 @@
-﻿[
+﻿{
+    "CtrlSystem": [
         {
             "ctrl_system": "100003",
             "description": "FATURAMENTO CONSUMO",
@@ -5155,3 +5156,4 @@
             "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
         }
     ]
+}
