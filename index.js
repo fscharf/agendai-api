@@ -26,6 +26,10 @@ app.use(
 
 app.use(router);
 
+const makeCrud = require('express-json-file-crud').makeCrud;
+const ctrlSystem = makeCrud('ctrl-system', './src/models/json/ctrl_system.json');
+app.use('/ctrl-system', ctrlSystem);
+
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });

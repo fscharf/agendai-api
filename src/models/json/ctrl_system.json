@@ -1,0 +1,5159 @@
+﻿{
+    "CtrlSystem": [
+        {
+            "ctrl_system": "100003",
+            "description": "FATURAMENTO CONSUMO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100004",
+            "description": "CONSULTA E IMPRESSÃO DE NOTA FISCAL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100005",
+            "description": "FATURAMENTO DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100007",
+            "description": "CONFERENCIA DE FATURAMENTO POR LEITOR DE CÓDIGO DE BARRAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100009",
+            "description": "CONSULTA DE FATURAMENTOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100010",
+            "description": "CONSULTA DE PRODUTOS ACABADOS FATURADOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100011",
+            "description": "FATURAMENTO DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100012",
+            "description": "TIPOS DE FATURAMENTO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100013",
+            "description": "ALTERAÇÃO DO FATURAMENTO ( DADOS POSSÍVEIS APOS IMPRESSÃO )",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100015",
+            "description": "DEVOLUÇÃO DE COMPRA DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100016",
+            "description": "FATURAMENTO DEVOLUÇÃO COMPRA M P",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100017",
+            "description": "CONSULTA DE MARGEM DE CONTRIBUIÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100018",
+            "description": "GERAÇÃO E IMPRESSÃO DE NF DE ENTRADA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100019",
+            "description": "CONSULTA DE FATURAMENTOS/DEVOLUCOES DE PROD. ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100020",
+            "description": "FATURAMENTO DE ORDEM DE SERVIÇO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100021",
+            "description": "CONSULTA DE GUIAS / FATURAS                                                   ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100022",
+            "description": "CONSULTA DE MATERIAIS FATURADOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100101",
+            "description": "FATURAMENTO DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100102",
+            "description": "NOTA FISCAL DE CONSUMÍVEL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100103",
+            "description": "CONSULTA DE NFS / FATURAS EMITIDAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100104",
+            "description": "FATURA DE NOTA FISCAL EMITIDA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100105",
+            "description": "FATURAMENTO DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100106",
+            "description": "DEVOLUÇÃO DE COMPRA DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100107",
+            "description": "FATURAMENTO DE ORDEM DE SERVIÇO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100108",
+            "description": "CONSULTA E IMPRESSÃO DE NOTAS FISCAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100109",
+            "description": "FATURAMENTO AUTOMATICO DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100110",
+            "description": "FATURA DE ABONO POR DEVOLUÇÃO DE VENDA                                        ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100111",
+            "description": "FATURAMENTO DE SERVIÇOS DE INDUSTRIALIZAÇÃO DE PRODUTOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100112",
+            "description": "DEVOLUÇÃO DE COMPRA DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100113",
+            "description": "CONSULTA DE FATURAMENTO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100114",
+            "description": "CONSULTA DE PRODUTO ACABADO FATURADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100115",
+            "description": "GERAÇÃO AUTOMÁTICA DE FATURAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100116",
+            "description": "EXPEDIÇÃO E FATURAMENTO DIRETO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100117",
+            "description": "DEVOLUÇÃO DE COMPRAS DE CONSUMÍVEIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100118",
+            "description": "CONSULTA DE FATURAMENTO DE MATERIAL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100119",
+            "description": "FATURAMENTO DE ITENS EM CONSIGNAÇÃO PORTUGAL                                  ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100120",
+            "description": "CONSULTA DE REMESSA DE MERCADORIAS PENDENTES A RETORNAR",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100121",
+            "description": "NOTA COMPLEMENTAR ( IMPOSTOS )",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100122",
+            "description": "ALTERAÇÃO DE NOTAS DAS LOJAS INTEGRADAS DO FATURAMENTO IMAGEM",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100123",
+            "description": "CONSULTA DE FATURAMENTO DE ITENS FISCAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100124",
+            "description": "NOTA COMPLEMENTAR DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100126",
+            "description": "CADASTRO DE ITENS FISCAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100127",
+            "description": "CADASTRO DE GRUPOS DE ITENS FISCAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100128",
+            "description": "FATURAMENTO DE CONTRATOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100129",
+            "description": "PREPARAÇÃO DE CONTRATOS A FATURAR",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100131",
+            "description": "FATURAMENTO DE PRODUTO EM CONSIGNAÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100132",
+            "description": "FATURAMENTO POR CONFERÊNCIA DE CAIXAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100133",
+            "description": "ALTERAÇÃO DOS DADOS FISCAIS ORIGEM SAÍDA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100134",
+            "description": "FATURAMENTO DE SERVIÇOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100135",
+            "description": "MONITOR DE CONTROLE DA NF-E",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "100136",
+            "description": "MONITOR DE ENVIO EM LOTE DA NF-E",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "120003",
+            "description": "SAÍDA DE PRODUTO ACABADO DO ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120004",
+            "description": "SAÍDA DE PRODUTO ACABADO PARA DEVOLUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120005",
+            "description": "CONSULTA DE ENTRADAS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120006",
+            "description": "CONSULTA DE SAÍDA DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120007",
+            "description": "CONSULTA DE ESTOQUE POR COR E FILIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120008",
+            "description": "HISTÓRICO DE MOVIMENTAÇÕES DO ESTOQUE DE PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120009",
+            "description": "MOV. ENTRADAS DE PRODUTOS NAS LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "120010",
+            "description": "MOV. SAÍDAS DE PRODUTOS NAS LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "120012",
+            "description": "GERAÇÃO DE HISTÓRICO DE SALDO DE ESTOQUE PA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120013",
+            "description": "HISTÓRICO DO ESTOQUE DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120015",
+            "description": "CONSULTA SINTÉTICA DE ESTOQUE POR FILIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120018",
+            "description": "INVENTÁRIO DE 11.1 - SUPORTE N2 - VAREJO PARA AJUSTE DE ESTOQUE",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "120019",
+            "description": "ENTRADAS DE ESTOQUE COM DIFERENÇAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120021",
+            "description": "CONSULTA SINTÉTICA DE ESTOQUE POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120022",
+            "description": "MONITORAMENTO DE RECEBIMENTO E DISTRIBUIÇÃO DE MERCADORIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120023",
+            "description": "CADASTRO DE TIPOS DE ENTRADA \\ SAÍDA DE P. ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120024",
+            "description": "CONSULTA E LIBERAÇÃO DOS PRODUTOS EM TRÂNSITO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "120026",
+            "description": "CONSULTA DE ESTOQUE POR DATA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120027",
+            "description": "SAÍDA DE PRODUTO ACABADO POR TRANSFERÊNCIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120101",
+            "description": "ENTRADA DE PRODUTOS POR PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120102",
+            "description": "ENTRADA DE PRODUTOS POR OP",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120103",
+            "description": "ENTRADA DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120104",
+            "description": "ENTRADA DE PRODUTOS POR DEVOLUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "130001",
+            "description": "CADASTRO DE TEMPOS DE MÁQUINA DE 2 QUALIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150001",
+            "description": "CONSULTA DE ORDENS DE RESERVA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150002",
+            "description": "ADEQUAÇÃO DE ORDENS DE RESERVA POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150003",
+            "description": "ADEQUAÇÃO DE ORDENS DE RESERVA POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150005",
+            "description": "PRODUTOS RESERVADOS POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150006",
+            "description": "DISTRIBUIÇÃO DE METAS POR FILIAL                                              ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150007",
+            "description": "CONSULTA DE ORDEM DE RESERVA X QTDE DISPONÍVEL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150008",
+            "description": "PRODUTOS RESERVADOS POR CAIXA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150009",
+            "description": "PRODUTOS RESERVADOS POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150010",
+            "description": "CONSULTA CONSOLIDADA DE RESERVAS POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150011",
+            "description": "RESERVA DE PRODUTO ACABADO VIA CÓDIGO DE BARRA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150012",
+            "description": "IMPRESSÃO DE BOLETOS DE EXPEDIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150013",
+            "description": "TIPOS DE CAIXAS DE EXPEDIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150014",
+            "description": "ESTOQUE IDEAL P/ DISTRIBUIÇÃO P/ LOJAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150015",
+            "description": "AGRUPAMENTOS DE DISTRIBUIÇÃO E METAS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150016",
+            "description": "EXCLUSÃO DE ITENS DA ORDEM DE RESERVA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150017",
+            "description": "EXPORTAÇÃO DE DADOS PARA COLETA \\ COLETOR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150018",
+            "description": "CONSULTA DE COLETA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150020",
+            "description": "DISTRIBUIÇÃO DE METAS POR GRUPO                                               ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150021",
+            "description": "CALENDÁRIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150022",
+            "description": "CONSULTA DE DISTRIBUICAO E METAS                                              ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150024",
+            "description": "GERAÇÃO DE ORDEM DE RESERVA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150025",
+            "description": "ASSISTENTE PARA DISTRIBUIÇÃO                                                  ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150026",
+            "description": "ASSISTENTE PARA REPOSIÇÃO AUTOMÁTICA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150027",
+            "description": "ADEQUAÇÃO DE ORDENS DE RESERVA POR PRODUTO - DISTRIBUIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150028",
+            "description": "CONSULTA COMPARATIVA DE METAS/VENDAS POR GRUPO                                ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150029",
+            "description": "CONSULTA COMPARATIVA DE VERBAS/COMPRAS POR GRUPO                              ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150030",
+            "description": "CONSULTA DE ESTOQUE IDEAL COM SALDO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150031",
+            "description": "CADASTRO DE GRUPO DE PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150032",
+            "description": "CANAL DISTRIBUIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150033",
+            "description": "SEGMENTAÇÕES PARA PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150034",
+            "description": "PERÍODOS PARA PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150035",
+            "description": "PLANEJAMENTO DE VAREJO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150036",
+            "description": "CADASTRO DE TIPOS DE AGRUPAMENTO PARA PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150037",
+            "description": "PLANEJAMENTO CANAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150038",
+            "description": "PLANEJAMENTO OPEN TO BUY",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150039",
+            "description": "PLANEJAMENTO LOJAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150040",
+            "description": "PLANEJAMENTO DE DISTRIBUIÇÃO DO CANAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150041",
+            "description": "ASSISTENTE PARA DISTRIBUIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150042",
+            "description": "PLANEJAMENTO AGRUPAMENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150043",
+            "description": "GERÊNCIA DE AGRUPAMENTOS DO PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150044",
+            "description": "PROCESSOS DE DISTRIBUIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150045",
+            "description": "COMPARAÇÃO META DE CANAL X META DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150046",
+            "description": "COMPARAÇÃO META DE CANAL X META DE AGRUPAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150047",
+            "description": "ADEQUAÇÃO PARA DISTRIBUIÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150049",
+            "description": "CONSULTA DE CARTEIRAS POR AGRUPAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150050",
+            "description": "STYLE ANALYSIS - ANÁLISE DE ESTILO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150051",
+            "description": "CONSULTA DE PERFORMANCE MENSAL                                                ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150052",
+            "description": "CONSULTA DE PERFORMANCE MENSAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150053",
+            "description": "PLANEJAMENTO OPEN TO DELIVERY",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150054",
+            "description": "CONSULTA METAS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150055",
+            "description": "PLANEJAMENTO CICLO VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150056",
+            "description": "PLANEJAMENTO ALOCAÇÃO IDEAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150057",
+            "description": "CONSULTA DE RESULTADO DOS AGRUPAMENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150058",
+            "description": "CADASTRO DE GRUPO DE CANAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150059",
+            "description": "ASSISTENTE PARA DISTRIBUIÇÃO, REPOSIÇÃO E REMANEJAMENTO ( ESTOQUE IDEAL )",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150060",
+            "description": "INCLUSÃO DE NOVOS ITENS DE PLANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150062",
+            "description": "STATUS PARA PLANOS REVISADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150063",
+            "description": "CADASTRO DE REVISÕES / CENÁRIOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150064",
+            "description": "ASSISTENTE PARA CÓPIA / GERAÇÃO DE METAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150065",
+            "description": "CADASTRO DE SEGMENTO DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150066",
+            "description": "CADASTRO DE SOLUÇÃO DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150067",
+            "description": "DIGITAÇÃO DE ESTOQUE IDEAL P/ DISTRIBUIÇÃO P/ LOJAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150068",
+            "description": "CADASTRO DE GRUPO DE ALOCAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150069",
+            "description": "CADASTRO DE ITENS PARA SORTIMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150070",
+            "description": "CADASTRO DE PROTOTIPOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150071",
+            "description": "CONSULTA SORTIMENTO DE LOJA - VAREJOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150072",
+            "description": "PARÂMETROS DO PROCESSO AUTOMÁTICO DE REPOSIÇÃO/ REMANEJAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150073",
+            "description": "ETIQUETA COM O NÚMERO DE CAIXA CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150074",
+            "description": "MONITOR – GERAÇÃO/RECEB. DE ARQ. DO EQUIP. SEPARADOR(SORTER)",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150075",
+            "description": "GERAÇÃO DE ROMANEIOS P/ SEPARAÇÃO ATRAVÉS DE EQUIP. SEPARADOR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150076",
+            "description": "CADASTRO DE FAIXA DE PREÇOS PARA SORTIMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150077",
+            "description": "CADASTRO DE TIPOS DE CALENDÁRIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150078",
+            "description": "CADASTRO DE CALENDÁRIO PARA SORTIMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300001",
+            "description": "CONCEITO DE CLIENTE VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300002",
+            "description": "TIPO DE CLIENTE DE VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300003",
+            "description": "PONTUALIDADES DE CLIENTE DE VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300004",
+            "description": "TIPO DE BLOQUEIO PARA CLIENTE VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300005",
+            "description": "CADASTROS DE CLIENTES VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300006",
+            "description": "CADASTRO DE VENDEDORES DE LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300008",
+            "description": "OPERAÇÕES DE VENDA DE LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300009",
+            "description": "TIPOS DE MOVIMENTAÇÃO DO CAIXA NA 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300011",
+            "description": "MONITOR DE TRANSFERÊNCIA DE PACOTES ( RETAGUARDA / LOJA )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300012",
+            "description": "CONSULTA DE VENDAS DE LOJAS POR PRODUTO E COR",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300013",
+            "description": "CONSULTA DE VENDAS DE LOJAS POR OPERAÇÕES",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300014",
+            "description": "CONSULTA DE VENDAS DE 11.1 - SUPORTE N2 - VAREJO POR TIPO DE PGTO E CAIXA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300015",
+            "description": "CONSULTA DE GIRO E VENDAS DE LOJAS POR PRODUTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300016",
+            "description": "TIPOS DE ENTRADAS E SAÍDAS NAS LOJAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300018",
+            "description": "CONSULTA COMPLETA DE VENDAS POR PRODUTOS E COR",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300019",
+            "description": "RESUMO DE VENDAS POR DATA E FILIAL",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300020",
+            "description": "CONSULTA DE GIRO E VENDAS DE 11.1 - SUPORTE N2 - VAREJO CONSOLIDADO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300021",
+            "description": "GERAÇÃO E PROCESSAMENTOS DE GIRO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300022",
+            "description": "CONSULTA COMISSÃO SINTÉTICA DE VENDEDOR DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300023",
+            "description": "CONSULTA COMISSÃO ANALÍTICA DE VENDEDOR DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300024",
+            "description": "CONSULTA DE GIRO E VENDAS DIA/MES/30 DIAS POR FILIAL",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300025",
+            "description": "TIPOS DE RESERVAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300026",
+            "description": "CONSULTA DE PRODUTOS RESERVADOS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300027",
+            "description": "CONSULTA TICKET DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300028",
+            "description": "CONSULTA DE GIRO E VENDAS DIA/MES/30 DIAS POR GRUPO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300029",
+            "description": "CONSULTA DE GIRO E VENDAS DIA/MES/30 DIAS POR COLEÇÃO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300035",
+            "description": "CLIENTES VAREJO  ( SAC )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300036",
+            "description": "CATEGORIA DO CLIENTE VAREJO ( SAC )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300037",
+            "description": "MANIFESTAÇÃO CLIENTE VAREJO ( SAC )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300038",
+            "description": "TIPO ATENDIMENTO DE CLIENTE VAREJO ( SAC )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300040",
+            "description": "FORMAS DE PAGAMENTO DE LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300041",
+            "description": "CADASTRO DE LOJAS VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300042",
+            "description": "GERAÇÃO E IMPORTAÇÃO  DE MULTIPLOS PACOTES DE TRANSFERENCIA DE 11.1 - SUPORTE N2 - VAREJO           ",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300043",
+            "description": "CONSULTA DE DIFERENCAS DE MOVIMENTAÇÃO NA 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300044",
+            "description": "CONSULTA DE VENDAS POR CLIENTE",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300045",
+            "description": "CONSULTA ESTOQUE, VENDAS E PEDIDOS DE LOJAS PROPRIAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300047",
+            "description": "CONSULTA DE FRANQUIA - ESTOQUE, VENDAS E PEDIDOS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300048",
+            "description": "CADASTRO DE NATUREZA DE OPERAÇÕES DE LOJAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300049",
+            "description": "CONSULTA DE VENDAS POR FRANQUIA E FILIAL",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300050",
+            "description": "CONSULTA SINTÉTICA DE FRANQUIA POR AGRUPAMENTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300051",
+            "description": "RESUMO DE VENDAS POR AGRUPAMENTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300052",
+            "description": "CONSULTA DE LANCAMENTOS DAS LOJAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300053",
+            "description": "CONSULTA DE TROCAS POR FILIAL E DATA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300055",
+            "description": "CONSULTA DE PEDIDOS DE VENDA POR PRODUTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300056",
+            "description": "CONSULTA DE CREDIÁRIO DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300057",
+            "description": "FECHAMENTO DE CAIXA NA RETAGUARDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300058",
+            "description": "ESTATISTICA DE CLIENTES VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300059",
+            "description": "SUGESTÃO DE TRANSFERÊNCIA DE ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300060",
+            "description": "CONSULTA DE SUGESTÃO DE TRANSFERÊNCIA DE ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300061",
+            "description": "CONSULTA DE ALTERAÇÃO DE CAIXA NA RETAGUARDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300062",
+            "description": "CONSULTA DE ENTRADAS POR PRODUTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300063",
+            "description": "CONSULTA DAS VENDAS / TEF",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300064",
+            "description": "CONSULTA DE MOVIMENTOS DE VENDA NA RETAGUARDA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300067",
+            "description": "CONSULTA DO LOG DE EVENTOS DAS LOJAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300068",
+            "description": "CADASTRO DE LOJAS VAREJO ( LINXPOS )",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300069",
+            "description": "MOTIVOS DE CANCELAMENTOS DE VENDA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300071",
+            "description": "ALTERAÇÃO FATURAMENTO IMAGEM",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300072",
+            "description": "CADASTRO DE COMISSÃO DE VENDEDOR/11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300074",
+            "description": "CONSULTA DE CADASTRO DE COMISSÃO DE VENDEDOR 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300075",
+            "description": "CONSULTA COMISSÃO POR VENDEDOR COM AGRUPAMENTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300076",
+            "description": "CONSULTA PEDIDO DE VENDA DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300079",
+            "description": "ANÁLISE DE VENDA VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300080",
+            "description": "CADASTRO DE COMISSÃO INDIVIDUAL DE VENDEDOR",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300081",
+            "description": "CONSULTA DE NOTAS FISCAIS EMITIDAS NA 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300082",
+            "description": "CADASTRO DE PROGRAMA DE FIDELIDADE",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300083",
+            "description": "EXTRATOS DOS PROGRAMAS DE FIDELIDADE",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300089",
+            "description": "CONSULTA DE VENDA DE PRODUTOS POR VENDEDOR",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300090",
+            "description": "CADASTRO DE PROCESSO PARA 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300091",
+            "description": "LIBERAR ESTOQUE NEGATIVO NA 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300092",
+            "description": "POSSÍVEIS MENSAGENS DE RETORNO DA A11.2 - SUPORTE N2 - COML/SUP/PRODUCAO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300093",
+            "description": "CADASTRO DE LIMITE DE PARCELAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300094",
+            "description": "EXCEÇÕES NA TRÂNSFERÊNCIA DE DADOS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300095",
+            "description": "LOTES PARA REMESSA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300096",
+            "description": "PERFIS DE ACESSO PARA LINXPOS E LINX FRANCHISING",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300097",
+            "description": "CADASTRO DE TRANSAÇÕES PARA LINXPOS E LINX FRANCHISING",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300100",
+            "description": "ALTERA O STATUS DO CONSERTO NA RETAGUARDA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300101",
+            "description": "CADASTRO DE STATUS DE CONSERTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300102",
+            "description": "CADASTRO DE MOTIVOS DOS CONSERTO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "300103",
+            "description": "CADASTRO DOS MOTIVOS DOS CANCELAMENTOS DOS CONSERTOS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400001",
+            "description": "FATURAMENTO 11.1 - SUPORTE N2 - VAREJO ATACADO - PRODUTO ACABADO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400002",
+            "description": "VENDAS 11.1 - SUPORTE N2 - VAREJO ATACADO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400003",
+            "description": "GERENCIAMENTO DE CAIXA DE 11.1 - SUPORTE N2 - VAREJO ATACADO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400004",
+            "description": "MANUTENÇÃO DE TERMINAIS DA 11.1 - SUPORTE N2 - VAREJO ATACADO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400005",
+            "description": "CONTROLE DE SAÍDA DE VOLUMES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "400006",
+            "description": "ANÁLISE DE COMISSÃO POR PERÍODO (11.1 - SUPORTE N2 - VAREJO ATACADO)",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400007",
+            "description": "RASTREABILIDADE DE SEQUENCIAS PARA CÓDIGO DE BARRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "400008",
+            "description": "FATURAMENTO 11.1 - SUPORTE N2 - VAREJO ATACADO - MATERIA PRIMA",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "400009",
+            "description": "CONSULTA DE PREÇOS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "990001",
+            "description": "ALTERAÇÃO DE MOEDA NO PEDIDO                                                  ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "_OBJET",
+            "description": "MANUTENÇÃO DE OBJETO DE ENTRADA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001001",
+            "description": "TIPOS DE BLOQUEIOS PARA  CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001003",
+            "description": "PONTUALIDADES PARA CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001004",
+            "description": "REGIOES DE VENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001005",
+            "description": "TIPOS DE CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001006",
+            "description": "CONSULTA DE CLIENTES POR REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001007",
+            "description": "TIPOS DE REPRESENTANTE DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001008",
+            "description": "TIPOS DE FORNECEDORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001009",
+            "description": "CONCEITOS DE CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001011",
+            "description": "CONDICOES DE PAGAMENTO PARA COMPRAS E ENTRADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001012",
+            "description": "TRANSPORTADORAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001013",
+            "description": "FILIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001014",
+            "description": "REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001015",
+            "description": "CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001016",
+            "description": "FORNECEDORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001017",
+            "description": "CONDICOES DE PAGAMENTO PARA VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001019",
+            "description": "CONSULTA DE POSIÇÃO DE REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001020",
+            "description": "CONSULTA DE CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001021",
+            "description": "CONSULTA DE COMISSÕES DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001022",
+            "description": "AGENDA / EVENTOS PARA PARCEIROS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001023",
+            "description": "TIPOS DOS EVENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001024",
+            "description": "CATEGORIAS DOS EVENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001025",
+            "description": "CONSULTA DOS LANÇAMENTOS DE COMISSÃO DE REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001026",
+            "description": "SUBTIPOS DE FORNECEDOR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001027",
+            "description": "CONSULTA DE CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001030",
+            "description": "TIPOS DE FILIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001031",
+            "description": "TABELA DE PAÍSES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001032",
+            "description": "DESCRIÇÃO DIFERENCIADA POR FORNECEDOR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001033",
+            "description": "REFERÊNCIA CRUZADA UF X  ICMS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001034",
+            "description": "CADASTRO DE EMPRESAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001035",
+            "description": "CADASTRO DE LANÇAMENTO DE CONTA CORRENTE DE COMISSÃO DE REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001037",
+            "description": "RELAÇÃO ENTRE CLIENTES VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "001041",
+            "description": "CLASSIFICAÇÃO DE FORNECEDORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001042",
+            "description": "CADASTRO DE CRITERIOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "001043",
+            "description": "AVALIAÇÃO DE FORNECEDORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "0020002",
+            "description": "LINX INTERNET EXPLORER                                                        ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002001",
+            "description": "GRUPOS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002002",
+            "description": "GRADES TAMANHO DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002003",
+            "description": "LINHAS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002004",
+            "description": "TIPOS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002005",
+            "description": "GRIFFES DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002006",
+            "description": "PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002007",
+            "description": "TABELA DE PREÇOS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002008",
+            "description": "TABELAS DE MEDIDA DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002009",
+            "description": "TABELAS DE CRONOMETRAGEM DE PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002010",
+            "description": "PROGRAMAÇÃO DE ENTREGA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002011",
+            "description": "LAVAGENS E TINTURARIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002012",
+            "description": "ETIQUETAS/ESTAMPAS DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002013",
+            "description": "LANÇAMENTO DE PRODUTOS COM SIMILARES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002014",
+            "description": "CADASTRO DE SIMILARES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002015",
+            "description": "ALTERAÇÃO DE PREÇOS COM DATA PARA ATIVAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002016",
+            "description": "TABELAS DE PREÇO POR CÓDIGO DE BARRA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002017",
+            "description": "REDE DE LOJAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002018",
+            "description": "CONSULTA DE TABELAS DE PREÇOS COM PACK",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002019",
+            "description": "STATUS DO PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002021",
+            "description": "CONSULTA DE PREÇOS COM DATA PARA ATIVAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002022",
+            "description": "PESO DE PRODUTO POR TAMANHO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002023",
+            "description": "FLUXO DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002024",
+            "description": "CONSULTA DE FLUXOS DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002025",
+            "description": "CONSULTA DE TEMPO DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002026",
+            "description": "CADASTRO DE MODIFICAÇÕES DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002029",
+            "description": "CATEGORIAS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002030",
+            "description": "TELA PARA ALTERAÇÃO DE STATUS DO PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002032",
+            "description": "FOTOS DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002037",
+            "description": "TABELA DE PREÇOS DE PRODUTOS POR PROTOCOLO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002041",
+            "description": "Tabela de Imposto do item ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002041",
+            "description": "TABELA DE IMPOSTO DE ITEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "002043",
+            "description": "Tabela de Alíquota de Imposto",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003001",
+            "description": "UNIDADES DE MEDIDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003002",
+            "description": "GRUPOS E SUBGRUPOS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003003",
+            "description": "COLEÇÕES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003004",
+            "description": "SITUAÇÃO TRIBUTÁRIA MODELO A - ORIGEM DE MERCADORIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003005",
+            "description": "SITUAÇÃO TRIBUTÁRIA MODELO B - TRIBUTAÇÕES PELO ICMS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003006",
+            "description": "CLASSIFICAÇÕES FISCAIS E IPI",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003008",
+            "description": "MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003009",
+            "description": "TIPOS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003010",
+            "description": "TABELA DE CONVERSÃO DE UNIDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003011",
+            "description": "TABELA DE PREÇOS DE MATERIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003012",
+            "description": "PEDIDO DE VENDAS DE MATERIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003013",
+            "description": "COMPOSIÇÃO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003014",
+            "description": "ALTERAÇÃO DE STATUS DE PEDIDO DE VENDA DE MATERIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003015",
+            "description": "STATUS DE PEDIDO DE VENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003016",
+            "description": "CONSULTA DE PEDIDO DE VENDA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003017",
+            "description": "CONSULTA ANALÍTICA DE VENDAS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003018",
+            "description": "IMPORTAÇÃO DE PEDIDOS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003019",
+            "description": "MATERIAIS BASE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003020",
+            "description": "CANCELAMENTO DE PEDIDOS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003021",
+            "description": "INSTRUÇÃO DE LAVAGEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003022",
+            "description": "FAIXA DE CLASSIFICAÇÃO FISCAL PARA ICMS - LOJAS",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "003023",
+            "description": "CUSTOS DE MATERIAIS POR FORNECEDORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003024",
+            "description": "CÓDIGO INTERNACIONAL DE COMPOSIÇÃO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003026",
+            "description": "MATERIAIS EXCLUIDOS POR RECURSO NA RESERVA DE ORDEM DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003027",
+            "description": "TIPOS DESENHOS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "003028",
+            "description": "FOTOS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004001",
+            "description": "MOEDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004002",
+            "description": "COMPRAS DE MATERIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004003",
+            "description": "CONSULTA SINTÉTICA DE COMPRAS POR MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004004",
+            "description": "CONSULTA DE COMPRAS POR FORNECEDOR (GERAL)",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004005",
+            "description": "COMPRAS DE CONSUMÍVEIS / IMOBILIZÁVEIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004006",
+            "description": "COMPRAS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004007",
+            "description": "CONSULTA DE COMPRAS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004008",
+            "description": "CONSULTA ANALÍTICA DE COMPRAS POR MATERIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004009",
+            "description": "CONSULTA ANALÍTICA DE COMPRAS DE CONSUMO E IMOBILIZADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004010",
+            "description": "CONSULTA DE COMPRAS POR FORNECEDOR E VENCIMENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004011",
+            "description": "TIPOS DE COMPRA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004012",
+            "description": "DESCRIÇÃO DIFERENCIADA DE PRODUTOS POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004013",
+            "description": "STATUS DE COMPRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004014",
+            "description": "CONSULTA ANALÍTICA DE COMPRAS DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004015",
+            "description": "CONSULTA DE CONSISTÊNCIA DE ENTRADAS E PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004016",
+            "description": "APROVAÇÃO DE PEDIDO DE COMPRA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004017",
+            "description": "CADASTRO DE DESPESAS DE COMPRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004018",
+            "description": "TABELA DE PRAZOS POR COR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004020",
+            "description": "DIVERGÊNCIA DE ENTRADAS DE PEDIDOS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004021",
+            "description": "DIVERGÊNCIA DE ENTRADAS DE PEDIDO DE MATÉRIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004022",
+            "description": "DIVERGÊNCIA DE ENTRADAS DE PEDIDO DE CONSUMÍVEIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004023",
+            "description": "TIPOS DE EMBALAGEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004024",
+            "description": "DOCAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004025",
+            "description": "STATUS DO AGENDAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004026",
+            "description": "AGENDAMENTO DE RECEBIMENTO DE COMPRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004027",
+            "description": "CONSULTA DE AGENDAMENTO DE DOCAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004028",
+            "description": "GERAÇÃO DE PEDIDO DE COMPRA COM BASE NA VENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004029",
+            "description": "CONSULTA DE ESTADO CRITICO DE COMPRAS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004030",
+            "description": "CONSULTA DE ESTADO CRITICO DE COMPRAS DE MATÉRIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004031",
+            "description": "CONSULTA DE ESTADO CRITICO DE COMPRAS DE CONSUMIVEIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004032",
+            "description": "ASSINATURA ELETRÔNICA DE COMPRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "004033",
+            "description": "CADASTRO DE EXCEÇÃO DA CAPACIDADE MÁXIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "005002",
+            "description": "SEQÜENCIAL E SÉRIE DE NOTA FISCAL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005003",
+            "description": "ENDERECAMENTO DO ESTOQUE DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005006",
+            "description": "ENTRADAS DE PRODUTOS ACABADOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005007",
+            "description": "CONSULTA ENTRADAS DE PRODUTOS ACABADOS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005008",
+            "description": "ENTRADA DE PRODUTO POR DEVOLUÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005009",
+            "description": "CONSULTA ANALÍTICA DE ENTRADAS DE NF COM MATERIAL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005010",
+            "description": "CONSULTA DE REMESSA DE MERCADORIAS PENDENTES A RETORNAR",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005012",
+            "description": "TIPOS DE ENTRADA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005013",
+            "description": "CONSULTA DE ENTRADAS DE CONSUMÍVEIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005014",
+            "description": "ENTRADAS DE DEVOLUÇÃO DE FATURAMENTO DE MP",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005015",
+            "description": "CONTAGEM FÍSICA DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "005016",
+            "description": "LOCALIZAÇÃO FISICA DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "005017",
+            "description": "CONSULTA DE ENTRADA MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005020",
+            "description": "ENTRADAS DE MATERIAIS E CONSUMÍVEIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005021",
+            "description": "CONSULTA LOCALIZAÇÃO FÍSICA DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "005023",
+            "description": "EMISSÃO DE DECLARAÇÃO DE IMPORTAÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005102",
+            "description": "ENTRADA DE NOTAS FISCAIS DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005103",
+            "description": "ENTRADAS DE NOTAS FISCAIS EM SEPARADO FISCAL E FÍSICO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005104",
+            "description": "ENTRADA DE NOTAS FISCAIS DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005105",
+            "description": "ENTRADA DE DEVOLUCAO DE PRODUTO ACABADO                                       ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005106",
+            "description": "FATURAS DE NOTAS FISCAIS RECEBIDAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005107",
+            "description": "CONSULTA DE ENTRADA DE NOTA FISCAL",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005108",
+            "description": "ENTRADAS DE NOTAS FISCAIS POR ORDEM DE SERVIÇO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005109",
+            "description": "ENTRADAS DE NOTAS FISCAIS DE CONSUMÍVEIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005110",
+            "description": "DEVOLUÇÃO DE VENDA DE CONSUMIVEL                                              ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005111",
+            "description": "DEVOLUCAO DE VENDAS DE MATERIAIS                                              ",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005112",
+            "description": "ENTRADA DE NOTAS FISCAIS DE PRODUTO ACABADO POR LOJA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005113",
+            "description": "CONSULTA ENTRADA NOTA FISCAL DE PRODUTO ACABADO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005114",
+            "description": "CONSULTA ENTRADA NOTA FISCAL DE MATERIAIS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005115",
+            "description": "ALTERAÇÃO DOS DADOS FISCAIS ORIGEM ENTRADA",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005116",
+            "description": "ENTRADA DE NOTAS FISCAIS DE CONSIGNAÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "005117",
+            "description": "CQ - OCORRÊNCIAS",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "006003",
+            "description": "CONSULTA  SINTÉTICA DE ESTOQUE DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006004",
+            "description": "CONTAGEM FISICA DE ESTOQUE DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006005",
+            "description": "CONSULTA DE ESTOQUE DE MATERIAL C/ SALDO POR DATA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006006",
+            "description": "CONSULTA ANALÍTICA DE SAÍDAS DE ESTOQUE DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006007",
+            "description": "CONSULTA ANALÍTICA DE RETORNO DE ESTOQUE DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006008",
+            "description": "GERAÇÃO DE HISTÓRICO DE SALDO DE ESTOQUE MP",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006009",
+            "description": "LANÇAMENTO DE ESTOQUE IDEAL E PONTO DE ENCOMENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006010",
+            "description": "CONSULTA DE SALDO DE PEÇAS/ PARTIDAS EM ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006101",
+            "description": "ORDEM DE SERVIÇO DE SEMI ACABADO COM SAÍDA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006102",
+            "description": "SAÍDA DE MATERIAIS PARA VENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006103",
+            "description": "TRANSFERENCIA DE MATERIAIS ENTRE FILIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006104",
+            "description": "SAÍDA DE MATERIAIS POR ORDEM DE PRODUÇÃO DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006105",
+            "description": "CONSULTA DE MOVIMENTAÇÕES DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006106",
+            "description": "TRANSFERÊNCIA DE MATERIAIS PARA TERCEIROS POR ORD. SERVIÇO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006107",
+            "description": "SAÍDA DE MATERIAIS DE ESTOQUE DE TERCEIROS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006108",
+            "description": "SAÍDAS DE MATERIAIS PARA DEVOLUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006109",
+            "description": "SAÍDAS DE MATERIAIS DO ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006201",
+            "description": "RETORNO DE MATERIAIS SEMI ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006202",
+            "description": "ENTRADA DE MATERIAIS PARA O ESTOQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006203",
+            "description": "RETORNO DE SOBRA DE MATERIAIS POR ORDEM DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "006204",
+            "description": "RECEBIMENTO DE PEDIDO DE COMPRA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007001",
+            "description": "ORDEM DE FABRICAÇÃO DE MATERIAL SEMI ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007002",
+            "description": "CADASTRO DE MÁQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007003",
+            "description": "CADASTRO DE FASES PRODUTIVAS DA PRODUÇÃO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007004",
+            "description": "CADASTRO DE TRATAMENTO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007005",
+            "description": "CADASTRO DE PROCESSO DE TRATAMENTO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007006",
+            "description": "CONSULTA DE ORDEM DE PRODUÇÃO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007007",
+            "description": "CONSULTA DE HIERARQUIA DE MATERIAIS SEMI-ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007008",
+            "description": "ORDEM DE SERVIÇO DE SEMI ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007009",
+            "description": "CONSULTA DE ORDENS DE FAB. POR ORDEM DE PRODUÇÃO DE PA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007010",
+            "description": "CONSULTA DE ORDENS DE FABRICAÇÃO POR RECURSO PRODUTIVO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007011",
+            "description": "CONSULTA DE ORDENS DE FABRICAÇÃO POR FASE PRODUTIVA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007012",
+            "description": "CADASTRO DOS TIPOS DE OCORRENCIA DE QUALIDADE                                 ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007013",
+            "description": "CADASTRO DE MAQUINAS                                                          ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007014",
+            "description": "APONTAMENTO DAS OCORRENCIAS (QUALIDADE)                                       ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007015",
+            "description": "CADASTRO DE SETUP                                                             ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007016",
+            "description": "ASSISTENTE DE CRIAÇÃO DE ORDEM DE PRODUÇÃO DE MATERIAIS                       ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007019",
+            "description": "STATUS DE FICHA TECNICA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007020",
+            "description": "TIPOS DE ESTAMPAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "007021",
+            "description": "ESTAMPAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008002",
+            "description": "FASES E SETORES DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008005",
+            "description": "CONSULTA CONSOLIDADA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008006",
+            "description": "CONSULTA E PROGRAMAÇÃO DE ORDENS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008011",
+            "description": "CONSULTA CONSOLIDADA DE PRODUTO ACABADO ABERTA POR COR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008013",
+            "description": "TIPOS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008015",
+            "description": "CADASTRO DE RECURSO PRODUTIVO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008016",
+            "description": "TIPOS DE RECURSO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008019",
+            "description": "CADASTRO DE MODELOS E ROTAS PRODUTIVAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008020",
+            "description": "CONSULTA SINTÉTICA DE FASES E SETORES DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008021",
+            "description": "CONTROLE DE ORDENS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008022",
+            "description": "CONSULTA DE ORDEM DE CORTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008023",
+            "description": "GERAÇÃO E IMPRESSÃO DE LOTES E ETIQUETAS PRODUTIVAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008025",
+            "description": "MOVIMENTAÇÃO RETRABALHO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008026",
+            "description": "TAREFAS DE ORDENS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008027",
+            "description": "CONSULTA DE FASE POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008028",
+            "description": "CONSULTA DE PRODUÇÃO MENSAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008029",
+            "description": "CONSULTA DE PRODUÇÃO COM VENDAS E ESTOQUE POR ENTREGA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008030",
+            "description": "CONSULTA DE PRODUÇÃO FINALIZADA ( CONTROLE DE CRÉDITO POR RECURSO )",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008031",
+            "description": "CONSULTA ANALÍTICA DE POSIÇÃO DE MATERIAIS ( EXTRATO )",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008032",
+            "description": "TIPOS DE SEGUNDA QUALIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008033",
+            "description": "CONSULTA DE PRODUÇÃO DE SEGUNDA QUALIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008034",
+            "description": "CONSULTA DE PREVISÃO E CONSUMO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008035",
+            "description": "CONSULTA DE LOTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008036",
+            "description": "GERAÇÃO AUTOMÁTICA DE PROGRAMAÇÃO DE ORDEM DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008037",
+            "description": "ENCAIXE DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008038",
+            "description": "CADASTRO DE TURNOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008039",
+            "description": "M P S  - CONSULTA SINTÉTICA DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008040",
+            "description": "NECESSIDADE DE PRODUÇÃO POR FASE PARA FATURAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008041",
+            "description": "PLANEJAMENTO DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008042",
+            "description": "CONSULTA DE CUSTO DE OP FINALIZADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008043",
+            "description": "M P S  - CONSULTA ANALÍTICA DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008044",
+            "description": "M R P  - CONSULTA SINTÉTICA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008045",
+            "description": "M R P - CONSULTA ANALÍTICA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008046",
+            "description": "M R P  - CONSULTA DE EXCEÇÕES DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008047",
+            "description": "M P S  - CONSULTA DE EXCEÇÕES DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008048",
+            "description": "M P S  - ORDENS PLANEJADAS ATRASADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008049",
+            "description": "M R P  - ORDENS PLANEJADAS ATRASADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008050",
+            "description": "CONSULTA DE PRODUÇÃO POR FASES PARA OP COM MAKE TO ORDER",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008051",
+            "description": "C R P - CONSULTA SINTÉTICA DE TEMPOS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008052",
+            "description": "GERAÇÃO DE ORDEM DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008053",
+            "description": "CONSULTA DE OP X VENDAS RESERVADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008055",
+            "description": "ASSISTENTE PARA GERAÇÃO DE PLANO DE PRODUÇÃO - MRP / MPS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008056",
+            "description": "CADASTRO DE ESTÁGIO DE TAREFAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008057",
+            "description": "TELA DE MOVIMENTAÇÃO DE ESTÁGIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008060",
+            "description": "GRAFICO PARA ANÁLISE DA UTILIZAÇÃO DOS RECURSOS                               ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008061",
+            "description": "GERAÇÃO E CONSULTA DOS HISTÓRICOS DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008062",
+            "description": "ALOCAÇÃO DE MATERIAIS POR PEÇAS PARTIDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008063",
+            "description": "ANÁLISE INVERTIDA DE MATERIAIS POR MAKE TO ORDER",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008064",
+            "description": "ALOCAÇÃO DE PEÇAS PARTIDAS POR ORDEM DE CORTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008065",
+            "description": "GERAÇÃO DE PROGRAMAÇÃO E / OU OP BASEADA NO PLANO DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008066",
+            "description": "GERAÇÃO DE REQUISIÇÃO BASEADA NO PLANO DE PRODUÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008067",
+            "description": "CONSULTA DE PRODUTIVIDADE POR RECURSO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008068",
+            "description": "CADASTRO DE FUNÇÃO PRODUTIVA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008069",
+            "description": "CONSULTA DE LOTE X OPERAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008125",
+            "description": "MOVIMENTAÇÃO NORMAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008201",
+            "description": "ORDEM DE SERVICO NORMAL VIA POCKET",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008225",
+            "description": "MOVIMENTAÇÃO AUTOMÁTICA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008325",
+            "description": "MOVIMENTAÇÃO ALTERAÇÃO DE P C P",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008425",
+            "description": "MOVIMENTAÇÃO PERDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008525",
+            "description": "MOVIMENTAÇÃO LAVAGEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008725",
+            "description": "MOVIMENTAÇÃO SEGUNDA QUALIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008825",
+            "description": "MOVIMENTAÇÃO POR LOTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "008925",
+            "description": "COPIA DE ORDEM DE SERVIÇO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009001",
+            "description": "TIPO DE CONTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009002",
+            "description": "TIPO DE DOCUMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009003",
+            "description": "IMPOSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009004",
+            "description": "HISTÓRICO PADRÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009005",
+            "description": "CARTEIRA DE COBRANÇA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009006",
+            "description": "TIPO DE MOVIMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009007",
+            "description": "CONTA CONTÁBIL ANALÍTICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009008",
+            "description": "TIPO DE LANÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009009",
+            "description": "ESPÉCIE DE SÉRIE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009010",
+            "description": "CENTRO DE CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009011",
+            "description": "RATEIO DE CENTRO DE CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009012",
+            "description": "RATEIO DE FILIAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009013",
+            "description": "BORDERÔ DE TÍTULO A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009014",
+            "description": "LAYOUT DO BORDERÔ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009015",
+            "description": "CONSULTA DIÁRIO E RAZÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009016",
+            "description": "CAMPO PARA O BORDERÔ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009017",
+            "description": "LANÇAMENTO PADRÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009018",
+            "description": "LANÇAMENTO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009019",
+            "description": "CONSULTA DE TÍTULO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009020",
+            "description": "CADASTRO DE AVISO DE CRÉDITO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009021",
+            "description": "LANÇAMENTO DE IMPOSTOS NA APURAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009022",
+            "description": "CADASTRO DE TÍTULO A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009023",
+            "description": "CADASTRO DE CHEQUE A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009024",
+            "description": "CADASTRO DE TÍTULO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009025",
+            "description": "BAIXA DE TÍTULO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009026",
+            "description": "CONSULTA DE CHEQUE A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009027",
+            "description": "CONSULTA DE AVISO DE LANÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009028",
+            "description": "CONSULTA DE TÍTULO A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009029",
+            "description": "CADASTRO DE SOLICITAÇÃO DE VERBA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009030",
+            "description": "EMISSÃO DE CHEQUE, DOC, TED  A  PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009031",
+            "description": "BAIXA DE TÍTULO A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009032",
+            "description": "BAIXA DE CARTÃO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009033",
+            "description": "BAIXA DE AVISO DE CRÉDITO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009034",
+            "description": "CONSULTA GERAL DE CONTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009035",
+            "description": "BORDERÔ DE TÍTULO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009037",
+            "description": "DEVOLUÇÃO DE CHEQUE A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009039",
+            "description": "VISÃO CONTÁBIL - PLANO DE CONTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009040",
+            "description": "EXERCÍCIO E PERÍODO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009041",
+            "description": "LANÇAMENTO DE ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009042",
+            "description": "BAIXA DE AVISO DE DÉBITO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009043",
+            "description": "CADASTRO DE AVISO DE DÉBITO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009044",
+            "description": "COMPENSAÇÃO DE CHEQUE, DOC, TED  EMITIDOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009045",
+            "description": "VISÃO POR CENTRO DE CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009046",
+            "description": "NATUREZA FISCAL DE OPERAÇÃO PARA SAÍDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009047",
+            "description": "CFOP - CÓDIGO FISCAL DE OPERAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009048",
+            "description": "NATUREZA FISCAL DE OPERAÇÃO PARA ENTRADA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009049",
+            "description": "FÓRMULA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009050",
+            "description": "CONSULTA VISÃO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009051",
+            "description": "FERIADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009052",
+            "description": "BAIXA DE SOLICITAÇÃO DE VERBA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009053",
+            "description": "DOCUMENTO PARA ASSINATURA ELETRÔNICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009054",
+            "description": "HIERARQUIA PARA ASSINATURA ELETRÔNICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009055",
+            "description": "BLOQUEIO DE CONTA CORRENTE                                                    ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009056",
+            "description": "IRREGULARIDADE PARA CARTA DE CORREÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "009057",
+            "description": "CARTA DE CORREÇÃO",
+            "tier": "11.4 - SUPORTE N2 - FATURAMENTO"
+        },
+        {
+            "ctrl_system": "009058",
+            "description": "OCORRÊNCIA PARA ACOMPANHAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009059",
+            "description": "CONSULTA DE ACOMPANHAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009061",
+            "description": "CONSULTA DE COMISSÃO DE REPRESENTANTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009062",
+            "description": "CFOP - CARACTERÍSTICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009063",
+            "description": "INDICADOR FISCAL TIPO DE OPERAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009064",
+            "description": "INDICADOR FISCAL DO TERCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009065",
+            "description": "INDICADOR FISCAL DE MERCADORIA, ATIVO E SERVIÇO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009066",
+            "description": "CADASTRO DE CARTÃO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009067",
+            "description": "BAIXA DE CHEQUE A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009068",
+            "description": "CONSULTA DE CHEQUE EMITIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009069",
+            "description": "ESTORNO DE CARTÃO A RECEBER                                                   ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009070",
+            "description": "FECHAMENTO DE LANÇAMENTO DE INTEGRAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009071",
+            "description": "CONSULTA DE CONTA CORRENTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009072",
+            "description": "CONSULTA DE CARTÃO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009073",
+            "description": "CONSULTA MOVIMENTO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009074",
+            "description": "EXPORTAÇÃO DE DÉBITO EM FOLHA DA RM                                           ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009075",
+            "description": "EXCEÇÃO DE IMPOSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009076",
+            "description": "IMPORTAÇÃO E EXPORTAÇÃO DE LANÇAMENTO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009077",
+            "description": "CONFERÊNCIA E INTEGRAÇÃO DE VENDA DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "009078",
+            "description": "ASSINATURA ELETRÔNICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009079",
+            "description": "CONSULTA DE INADIMPLÊNCIA                                                     ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009080",
+            "description": "BORDERÔ DE CHEQUE A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009081",
+            "description": "CONSULTA DE SOLICITAÇÃO DE VERBA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009082",
+            "description": "CONSULTA DE TÍTULO PAGO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009083",
+            "description": "CONSULTA DE TÍTULO RECEBIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009084",
+            "description": "CONSULTA DE AVISO DE LANÇAMENTO MOVIMENTADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009085",
+            "description": "CONSULTA DE CHEQUE RECEBIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009086",
+            "description": "CONSULTA DE CARTÃO RECEBIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009088",
+            "description": "VERSÃO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009089",
+            "description": "CONSULTA DIÁRIO E RAZÃO DETALHADO POR FILIAL E C. CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009091",
+            "description": "CONCILIAÇÃO  DE CARTÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009092",
+            "description": "REDE DE ADMINISTRADORA DE CARTÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009093",
+            "description": "LOTE PARA ASSINATURA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009094",
+            "description": "EXPORTAÇÃO DE CRÉDITO EM FOLHA DA RM                                          ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009096",
+            "description": "CONSULTA RAZÃO GERENCIAL                                                      ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009097",
+            "description": "INCONSISTÊNCIAS NAS ADMINISTRADORAS DE CARTÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009098",
+            "description": "ENCERRAMENTO DE EXERCÍCIO ( DESPESAS E RECEITAS)",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009099",
+            "description": "GRUPO DE TIPO DE OPERAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009101",
+            "description": "ESTORNO DO FECHAMENTO DE LANÇAMENTO DE INTEGRAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009102",
+            "description": "CONSULTA VISÃO CONTÁBIL X ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009104",
+            "description": "GRUPOS DE EXCEÇÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009105",
+            "description": "CONSULTA VISÃO CONTÁBIL ABERTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009108",
+            "description": "EXCLUSÃO DE LOTE DE LANÇAMENTOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009112",
+            "description": "CONSULTA DE LOG DE ASSINATURA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009113",
+            "description": "ANÁLISE HORIZONTAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009114",
+            "description": "VERIFICA C M C 7",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009115",
+            "description": "GERA LANÇAMENTO CONTÁBIL DE IMPOSTOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009116",
+            "description": "FLUXO DE CAIXA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009117",
+            "description": "FECHAMENTO DOS MOVIMENTOS PARA CONTABILIDADE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009118",
+            "description": "ATRIBUIÇÃO DO CÓDIGO DE BARRA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009119",
+            "description": "FECHAMENTO DE COMISSÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009120",
+            "description": "LISTA MOVIMENTOS DE FECHAMENTO DE COMISSÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009121",
+            "description": "CONCILIAÇÃO CONTÁBIL POR TERCEIRO E CONTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009122",
+            "description": "CONSULTA PARA GERAR CARTA DE ANUÊNCIA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009123",
+            "description": "CENTRO DE CUSTO - GRUPO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009124",
+            "description": "ANÁLISE HORIZONTAL ANALÍTICA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009125",
+            "description": "ESTORNO DA INTEGRAÇÃO DO MOVIMENTO DE 11.1 - SUPORTE N2 - VAREJO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009126",
+            "description": "CONSULTA RAZÃO DETALHADO POR FILIAL, C. CUSTO E VISÃO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009127",
+            "description": "CONSULTA DIÁRIO POR VISÃO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009129",
+            "description": "DEVOLUÇÃO DE CHEQUE EMITIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009130",
+            "description": "CONSULTA DE TÍTULOS PAGO POR CENTRO CUSTO E CONTRAPARTIDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009131",
+            "description": "CONSULTA DE RECIBO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009132",
+            "description": "INCLUSÃO DE RECIBOS                                                           ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009133",
+            "description": "INCLUSÃO DE RECIBO                                                            ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009134",
+            "description": "FLUXO DE CAIXA REALIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009135",
+            "description": "VISÃO ORÇAMENTO X BALANCETE ABERTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009136",
+            "description": "VALIDA DADOS CONTÁBEIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009137",
+            "description": "CONSULTA VISÃO CONTÁBIL BALANCETE X ORÇAMENTO ABERTO / ACUMULADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009138",
+            "description": "ANÁLISE HORIZONTAL ANALÍTICA - BALANCETE X ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009139",
+            "description": "PRODUÇÃO CUSTO ABSORÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009140",
+            "description": "FECHAMENTO CUSTO MÉDIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009145",
+            "description": "ENCERRAMENTO CONTÁBIL DE IMPOSTOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009146",
+            "description": "ENCERRAMENTO CONTÁBIL COM ATIVO / PASSIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009147",
+            "description": "LANÇAMENTO DE VARIAÇÃO CAMBIAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009148",
+            "description": "LANÇAMENTO DE INFLAÇÃO / DEFLAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009149",
+            "description": "CONSULTA VISÃO CONTÁBIL ABERTA - VALOR FINANCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009150",
+            "description": "CONSULTA FECHAMENTO CUSTO MÉDIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009151",
+            "description": "CADASTRO DE ITENS DE COMPOSIÇÃO DO CUSTO MÉDIO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009152",
+            "description": "ANÁLISE HORIZONTAL DO VALOR FINANCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009153",
+            "description": "CONSULTA DE TÍTULO A RECEBER RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009154",
+            "description": "CONSULTA FECHAMENTO CUSTO MÉDIO - PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009155",
+            "description": "CONSULTA FECHAMENTO CUSTO MÉDIO - MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "009156",
+            "description": "CONTAS A PAGAR RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009157",
+            "description": "CONSULTA DE AVISO DE LANÇAMENTO RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009158",
+            "description": "CONSULTA DE CHEQUE EMITIDO RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009159",
+            "description": "CONSULTA DE CHEQUE A RECEBER RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009160",
+            "description": "CONSULTA DE CARTÃO A RECEBER RETROATIVO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009161",
+            "description": "MOVIMENTAÇÃO DE CONTA CORRENTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009162",
+            "description": "CONCILIAÇÃO DE CONTA CORRENTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009163",
+            "description": "TROCA DE CHEQUE EMITIDO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009165",
+            "description": "CONSULTA DIÁRIO E RAZÃO DO VALOR FINANCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009166",
+            "description": "GERAÇÃO DE TÍTULOS POR BAIXA DE SALDO DE JUROS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009167",
+            "description": "GERACAO CUSTOS EXCLUSIVO PARA COLOMBIA                                        ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009168",
+            "description": "CADASTRO DE GRUPOS PARA FLUXO DE CAIXA ARMAZENADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009169",
+            "description": "FLUXO DE CAIXA ARMAZENADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009177",
+            "description": "CONSULTA DE DOCUMENTO PAGOS POR REPRESENTANTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009178",
+            "description": "GERA ARQUIVO SERASA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009179",
+            "description": "CONSULTA DIÁRIO E RAZÃO - CONTRAPARTIDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009180",
+            "description": "ALTERAÇÃO DE CONTAS E RATEIOS DO FINANCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009181",
+            "description": "EFETIVAÇÃO DA DESPESA ANTECIPADA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009185",
+            "description": "CONSULTA DIÁRIO E RAZÃO COM VALORES EM MOEDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009186",
+            "description": "TIPO DE COMPROVANTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009187",
+            "description": "CONSULTA VISÃO CONTÁBIL COM DETALHAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009188",
+            "description": "CONSULTA POSIÇÃO FINANCEIRA DO TERCEIRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009189",
+            "description": "CONSOLIDAÇÃO ENTRE AS EMPRESAS ( MATRIZ CONTÁBIL )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009190",
+            "description": "CADASTRO DE STATUS PARA ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009191",
+            "description": "CADASTRO DE CARACTERISTICA DE CONTAS PARA ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009192",
+            "description": "CONCILIAÇÃO AUTOMÁTICA DE CARTÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009193",
+            "description": "CONCILIAÇÃO AUTOMÁTICA DE CONTA CORRENTE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009194",
+            "description": "CONCILIAÇÃO AUTOMÁTICA DE CHEQUE ( CUSTÓDIA E CONTENCIOSO )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009195",
+            "description": "CADASTRO DE ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009196",
+            "description": "VERIFICA LANÇAMENTOS PENDENTES PELO ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009197",
+            "description": "CONSULTA DO SALDO DO ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009198",
+            "description": "CADASTRO DE USUÁRIO POR CENTRO DE CUSTO E FILIAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009199",
+            "description": "CONTAS PARA ORÇAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009200",
+            "description": "CADASTROS E MOVIMENTAÇÕES FINANCEIRAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009203",
+            "description": "CONSULTA PARA GERAR CARTA ANUÊNCIA DE CHEQUE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009204",
+            "description": "CONSULTA DE ARQUIVOS DE ADMINISTRADORAS E BANCOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009205",
+            "description": "MANAD",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009206",
+            "description": "TIPOS DE LANÇAMENTO POR USUÁRIO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009207",
+            "description": "CONSULTA DE LOG DE LANÇAMENTOS CONTÁBEIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "009208",
+            "description": "CONSULTA DE ESTORNO DE COMISSÃO SOBRE ATRASO DE TÍTULO A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010001",
+            "description": "TIPO DE CONTA EXISTENTE NO PLANO DE CONTAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010002",
+            "description": "TIPO DE LANÇAMENTO NO CONTA CORRENTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010003",
+            "description": "HISTÓRICO PADRONIZADO PARA CONTAS CORRENTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010004",
+            "description": "PLANO DE CONTAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010005",
+            "description": "LANÇAMENTOS DE CONTAS CORRENTES E CONTABILIDADE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010007",
+            "description": "EXPORTAÇÃO CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010008",
+            "description": "CONSULTA DE CONTAS CORRENTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "010009",
+            "description": "DIÁRIO DE CONTAS SINTÉTICAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "011017",
+            "description": "EVENTOS POR USUARIOS                                                          ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "011028",
+            "description": "CADASTRO DE CONTATOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "011041",
+            "description": "CADASTRO DE CONTRATOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "011042",
+            "description": "CADASTRO DE TIPOS DE CONTRATOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "011043",
+            "description": "CADASTRO DE GRUPOS DE CONTRATOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012001",
+            "description": "EXERCÍCIO E PERÍODO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012002",
+            "description": "VISÃO FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012003",
+            "description": "CÓDIGO DE APURAÇÃO DE IMPOSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012004",
+            "description": "REGISTRO DE ENTRADA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012005",
+            "description": "REGISTRO DE SAÍDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012006",
+            "description": "RESUMO DA APURAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012007",
+            "description": "MAPA DE RESUMO FISCAL",
+            "tier": "11.1 - SUPORTE N2 - VAREJOS"
+        },
+        {
+            "ctrl_system": "012008",
+            "description": "INTEGRAÇÃO NOTAS FISCAIS DE LOJAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012009",
+            "description": "S I N T E G R A",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012010",
+            "description": "CADASTRO DO SUB ITEM DA APURAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012011",
+            "description": "CONSULTA E ALTERAÇÃO DA APURAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012012",
+            "description": "REGISTRO DE ENTRADA - SERVIÇOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012013",
+            "description": "G I A",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012014",
+            "description": "ESTORNO DE INTEGRAÇÃO DAS NOTAS EMITIDAS NA LOJA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012015",
+            "description": "IMPRIME REGISTROS DE SAÍDA E ENTRADA SEM MOVIMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012016",
+            "description": "INCLUSÃO DE DADOS / IMPOSTOS  PARA GERAR FINANCEIRO FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012017",
+            "description": "FECHAMENTO DOS MOVIMENTOS FISCAIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012018",
+            "description": "TELA DE EXPORTAÇÃO - ESTRUTURA DOS ARQUIVOS E IMPORTAÇÃO DE DADOS             ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012019",
+            "description": "CONSULTA E INTEGRAÇÃO DO FINANCEIRO FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012020",
+            "description": "S E F",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012021",
+            "description": "INTEGRAÇÃO  S I S I F - C E",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012022",
+            "description": "D C T F - CONSULTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012023",
+            "description": "REGISTRO DE SAÍDA - SERVIÇO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012024",
+            "description": "INTEGRAÇÃO DAS NOTAS FISCAIS DE ENTRADA / SAÍDA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012025",
+            "description": "D E S",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012026",
+            "description": "REGISTRO DE INVENTÁRIO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012027",
+            "description": "G I / I C M S OU D F C",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012028",
+            "description": "G I / I C M S OU D F C",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012029",
+            "description": "GERAÇÃO VISÃO FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012030",
+            "description": "D I P I",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012031",
+            "description": "D I R F - CONSULTA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012032",
+            "description": "D I M E",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012033",
+            "description": "CADASTRO DE ANO E MATRIZ FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012034",
+            "description": "4.9.2 CADASTRO DE CONTAS E SALDOS MENSAIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012035",
+            "description": "4.1.1 LANÇAMENTOS CONTÁBEIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012036",
+            "description": "4.9.3 CADASTRO DE CENTRO DE CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012037",
+            "description": "4.9.4 CADASTRO DE NATUREZA DE OPERAÇÃO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012038",
+            "description": "CADASTRO DE MODELO DE DOCUMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012039",
+            "description": "4.9.6 CADASTRO DE PROVENTOS E DESCONTOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012040",
+            "description": "4.9.1 CADASTRO DE TERCEIROS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012041",
+            "description": "4.8.2 CADASTRO DE FUNCIONÁRIOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012042",
+            "description": "4.8.1 CADASTRO DE FOLHA DE PAGAMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012043",
+            "description": "4.2.1 CADASTRO DE MOVIMENTAÇÃO FINANCEIRA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012044",
+            "description": "4.7.1 CADASTRO DE BENS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012045",
+            "description": "4.9.5 CADASTRO DE MERCADORIAS E SERVIÇOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012046",
+            "description": "4.5.1 CONTROLE DE ESTOQUES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012047",
+            "description": "4.3.5 CADASTRO DE NOTAS EMITIDAS DE SERVIÇO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012048",
+            "description": "4.3.3 CADASTRO DE NOTAS DE ENTRADA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012049",
+            "description": "4.3.1 CADASTRO DE NOTAS DE SAÍDAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012050",
+            "description": "4.5.2 CADASTRO DE INVENTÁRIO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012051",
+            "description": "4.6.1 CADASTRO DE INSUMOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012052",
+            "description": "IMPORTAÇÃO DE DADOS PARA I N 86",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012053",
+            "description": "GERAÇÃO DE DADOS PARA  I N 86",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012054",
+            "description": "CONSULTA FINANCEIRO FISCAL GERADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012055",
+            "description": "D I E F",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012056",
+            "description": "INTEGRAÇÃO DE VENDA DE 11.1 - SUPORTE N2 - VAREJO PARA MAPA RESUMO PARA COLOMBIA                    ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012057",
+            "description": "INTEGRACAO (COLOMBIA)                                                         ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012058",
+            "description": "D C T F",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012059",
+            "description": "D I R F",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012060",
+            "description": "LIVRO ELETRÔNICO ( ATO COTEPE 70/05 )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012064",
+            "description": "D I C",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012065",
+            "description": "MUNICÍPIOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012066",
+            "description": "D I P J",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012067",
+            "description": "VERIFICA FATURAMENTO IMAGEM",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012068",
+            "description": "APOIO PARA INTEGRAÇÃO COM O GOVERNO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012069",
+            "description": "G I M",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012070",
+            "description": "CADASTRO DE LIVRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012071",
+            "description": "CADASTRO DE TIPOS DE LIVRO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012073",
+            "description": "P E R / D C O M P",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012074",
+            "description": "G N R E",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012075",
+            "description": "D P I",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012076",
+            "description": "D M A",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012077",
+            "description": "VERIFICA NOTAS NÃO INTEGRADAS NO FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012078",
+            "description": "G N R E",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012080",
+            "description": "D E C L A N",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012081",
+            "description": "NOTA FISCAL – REGISTRO DE CRÉDITO AO CONSUMIDOR",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "012082",
+            "description": "ARQUIVO DOS ESTOQUES - SUBSTITUIÇÃO TRIBUTÁRIA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012085",
+            "description": "CADASTRO TIPO DE MERCADORIA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012088",
+            "description": "GERA SPED CONTÁBIL                                                            ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012090",
+            "description": "STDE - RS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012091",
+            "description": "INTEGRAÇÃO G I A - P E",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012300",
+            "description": "CADASTRO DE CFOP",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012302",
+            "description": "CADASTRO DE TIPO DE EMBARQUE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012304",
+            "description": "CADASTRO DE GÊNERO DE ITEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012305",
+            "description": "CADASTRO DE TIPO DE ITEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012306",
+            "description": "CADASTRO DE MUNICÍPIOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012307",
+            "description": "CADASTRO DE NCM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012308",
+            "description": "CADASTRO DE PAÍS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012309",
+            "description": "CADASTRO DE TIPO DE RESPONSÁVEL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012310",
+            "description": "CADASTRO DE MODELO DE SÉRIE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012311",
+            "description": "CADASTRO DO PERFIL DA MATRIZ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012312",
+            "description": "CADASTRO DE TIPO DE SERVIÇO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012313",
+            "description": "CADASTRO DE UNIDADE DA FEDERAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012316",
+            "description": "ATUALIZAÇÕES DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012317",
+            "description": "ATUALIZAÇÕES DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012318",
+            "description": "ATUALIZAÇÕES DE ITENS FISCAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012319",
+            "description": "VALIDAÇÃO DE DADOS PARA IMPORTAÇÃO NO LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012320",
+            "description": "CONTAS CONTÁBEIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012321",
+            "description": "ECFS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012322",
+            "description": "UNIDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012323",
+            "description": "SÉRIES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012324",
+            "description": "NATUREZAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012325",
+            "description": "CENTROS DE CUSTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012326",
+            "description": "TERCEIROS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012327",
+            "description": "ITENS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012328",
+            "description": "NOTAS DE ENTRADA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012329",
+            "description": "NOTAS DE SAÍDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012330",
+            "description": "REDUÇÕES Z",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012331",
+            "description": "INVENTÁRIOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012332",
+            "description": "APURAÇÕES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "012333",
+            "description": "IMPORTAÇÃO DE DADOS PARA O LCF FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012334",
+            "description": "GERAÇÃO DO SPED FISCAL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012335",
+            "description": "IMPORTAÇÃO DE DADOS PARA O LCF CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012336",
+            "description": "GERAÇÃO DO ARQUIVO TEXTO PARA SPED CONTÁBIL",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012337",
+            "description": "CADASTRO DE VISÃO CONTÁBIL DO LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012338",
+            "description": "CONSULTA DO DIÁRIO DO LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012339",
+            "description": "GERAR BALANCETE LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012340",
+            "description": "CADASTRO DE MUNICÍPIOS DO LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012341",
+            "description": "CADASTRO DE RESPONSÁVEIS DO LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "012342",
+            "description": "EXCLUSÃO DE MOVIMENTOS IMPORTADOS PARA O LCF",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013001",
+            "description": "CADASTRO DE STATUS DE IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013002",
+            "description": "CADASTRO DE MOTIVO DE MOVIMENTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013003",
+            "description": "CADASTRO DA NATUREZA DO IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013004",
+            "description": "CADASTRO DE TIPO DE VALOR PARA IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013005",
+            "description": "CADASTRO DE CLASSE E SUB CLASSE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013006",
+            "description": "CADASTRO DE IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013007",
+            "description": "TRANSFERÊNCIA DE IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013008",
+            "description": "BAIXA DE IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013009",
+            "description": "GERA DEPRECIAÇÃO E CORREÇÕES DO IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013010",
+            "description": "CONSULTA DO IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013011",
+            "description": "CONTABILIZAÇÃO DOS IMOBILIZADOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013012",
+            "description": "CONTROLE DO C I A P  ( MODELO C )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013013",
+            "description": "CONTROLE DO C I A P  ( MODELO D )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013014",
+            "description": "CONSULTA MOVIMENTO IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013015",
+            "description": "TRANSFERÊNCIA EM LOTE DE IMOBILIZADOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013016",
+            "description": "CONSULTA MOVIMENTAÇÃO POR CLASSE E SUBCLASSE",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013017",
+            "description": "CADASTRO DE SETORES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013018",
+            "description": "BAIXA EM LOTE DE IMOBILIZADO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "013019",
+            "description": "CONSULTA DE BAIXAS E TRANSFERÊNCIAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "014001",
+            "description": "MÓDULOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014002",
+            "description": "TRANSAÇÕES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014004",
+            "description": "USUÁRIOS E SUAS RESTRIÇÕES DE ACESSO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014005",
+            "description": "PARÂMETROS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014007",
+            "description": "SEQUENCIAIS DE CÓDIGOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014008",
+            "description": " >>> PARÂMETROS DO MÓDULO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014010",
+            "description": "LOG DE TRANSAÇÕES POR USUARIO E TRANSAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014015",
+            "description": "COMANDOS DO FOX E DO SQL                                                      ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014016",
+            "description": "MANUTENÇÃO DE BANCO DE DADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014017",
+            "description": "GERAÇÃO DO ARQUIVO DO DISCO MAGNÉTICO-SINTEGRA                                ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "014025",
+            "description": "GRUPO DE MÓDULOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014031",
+            "description": "CADASTRO DE DETALHES                                                          ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014032",
+            "description": "GERENCIADOR DE PROPRIEDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014033",
+            "description": "TRANSAÇÕES PARA PROPRIEDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014034",
+            "description": "GRUPOS DE PROPRIEDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014041",
+            "description": "CRIAÇÃO DE FILTRO ESPECIAL PARA TELA DE VALIDAÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014042",
+            "description": "CADASTRO DE GERENTE DE  K P I",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014043",
+            "description": "CADASTRO DE GRUPOS DE  K P I",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014044",
+            "description": "CADASTRO DE QUALIDADES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014045",
+            "description": "CONTROLE DE TIPOS DE QUALIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014047",
+            "description": "ALTERAR DATA DO SISTEMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014048",
+            "description": "CADASTRO DE INICIALIZADORES DO SISTEMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "014049",
+            "description": "MONITORAÇÃO DE PROCESSOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "015001",
+            "description": "CADASTRO DA TABELA PROGRESSIVA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "020001",
+            "description": "CONFIGURAÇÕES LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021001",
+            "description": "TIPOS DE MÁQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021002",
+            "description": "MÁQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021003",
+            "description": "TIPOS DE OPERAÇÕES DE PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021004",
+            "description": "OPERAÇÕES DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021005",
+            "description": "TABELA LINHA INDUSTRIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021006",
+            "description": "OPERADORAS DE MÁQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021007",
+            "description": "TOLERÂNCIAS DE PRODUTIVIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021008",
+            "description": "CONJUNTO DE CELULAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021009",
+            "description": "CADASTRO DE CELULAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021010",
+            "description": "MÁQUINAS COM OPERADORAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021011",
+            "description": "TABELA DE OCORRÊNCIAS DE PRODUTIVIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021012",
+            "description": "TIPO DE OCORRÊNCIAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021013",
+            "description": "METAS DE PRODUÇÃO DIARIA POR CELULA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021014",
+            "description": "PRODUÇÃO DIARIA / OCORRÊNCIAS / AUSENCIAS DIARIAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021015",
+            "description": "TABELA DE ELEMENTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021016",
+            "description": "CADASTRO DE V.A.C.  VELOCIDADE DE ATRAVESSAMENTO CONSTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021017",
+            "description": "CADASTRO DE APARELHOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021018",
+            "description": "LANÇAMENTO DE PRODUTIVIDADE MANUAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021019",
+            "description": "LANÇAMENTO DE PRODUTIVIDADE POR LEITURA DE CÓDIGO DE BARRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "021020",
+            "description": "CONSULTA DE LANÇAMENTOS DE PRODUTIVIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "024105",
+            "description": "REQUISIÇÃO DE MATÉRIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "024106",
+            "description": "REQUISIÇÃO DE MATERIAL DE CONSUMO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "024107",
+            "description": "REQUISIÇÃO DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "024202",
+            "description": "COTAÇÃO DE MATÉRIA PRIMA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "024203",
+            "description": "COTAÇÃO DE MATERIAL DE CONSUMO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "03007",
+            "description": "CORES BÁSICAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040001",
+            "description": "FICHA TECNICA DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040002",
+            "description": "LANCAMENTO DE CUSTOS DE REPOSIÇÃO DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040003",
+            "description": "LANCAMENTO DE FATORES DE FORMAÇÃO DE PREÇOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040004",
+            "description": "FORMAÇÃO DE PREÇOS DE VENDA E CUSTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040005",
+            "description": "ORÇAMENTOS PARA FORMAÇÃO DE PREÇO DE PRODUTO                                  ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040009",
+            "description": "SUBSTITUIÇÕES DE MATERIAIS POR ALTERNATIVOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040010",
+            "description": "FICHA TECNICA DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040011",
+            "description": "COMBINAÇÃO DE CORES DE MATERIAIS E MODELAGEM",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040012",
+            "description": "FICHA DE MODELAGEM DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040013",
+            "description": "TABELA DE PREÇOS PARA MODELAGEM",
+            "tier": "11.1 - SUPORTE N2 - VAREJO"
+        },
+        {
+            "ctrl_system": "040014",
+            "description": "ASSISTENTE GERADOR DE MATERIAIS NAS MODELAGENS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040015",
+            "description": "CADASTRO DE CARTELA DE CORES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040016",
+            "description": "TABELA DE MOLDES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040017",
+            "description": "CONSULTA DE LABORATÓRIOS E MODELOS POR FAIXA DE DATAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040018",
+            "description": "CONSULTA DE PRODUTOS COM COMBINAÇÕES FALTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040019",
+            "description": "CONSULTA DE RECURSOS POR DATA E QUANTIDADE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040020",
+            "description": "TABELA DE MEDIDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "040021",
+            "description": "CADASTRO DE PACOTES DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "045001",
+            "description": "TRANSPORTADORA FRETE PREÇO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "045002",
+            "description": "CADASTRO DE REGIÕES DE CEP",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "045003",
+            "description": "ASSISTENTE DE IMPORTAÇÃO DE CONHECIMENTO DE FRETE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "045005",
+            "description": "OCORRÊNCIAS DE ENTREGA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "045006",
+            "description": "CADASTRO DE TIPOS DE OCORRÊNCIA DE ENTREGA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050003",
+            "description": "OPERAÇÕES DE TINTURARIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050005",
+            "description": "GRUPOS DE RECEITAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050006",
+            "description": "TIPOS DE MAQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050007",
+            "description": "MAQUINAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050008",
+            "description": "TIPOS DE OPERAÇÃO DE TINTURARIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050010",
+            "description": "ORDEM DE TINGIMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050011",
+            "description": "STATUS DA ORDEM DE TINGIMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050013",
+            "description": "ORDEM DE ESTAMPARIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050014",
+            "description": "STATUS DE ORDEM DE ESTAMPARIA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "050015",
+            "description": "TABELA DE PRECOS DE RECEITA/ESTAMPA/PROCESSO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "076101",
+            "description": "FLUXO DE CAIXA ( C U B O )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "076102",
+            "description": "FLUXO DE CAIXA  POR TERCEIRO ( C U B O )",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "080001",
+            "description": "PEDIDOS DE VENDA DE PRODUTOS ACABADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080002",
+            "description": "TIPO DE VENDAS DE ATACADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080003",
+            "description": "CONSULTA ANALÍTICA DE VENDAS DE PRODUTO C/ CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080004",
+            "description": "CONSULTA SINTÉTICA DE VENDAS POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080005",
+            "description": "CONSULTA CONSOLIDADA DE VENDAS POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080006",
+            "description": "CONSULTA DE PEDIDO DE VENDAS DE PRODUTO ACABADO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080007",
+            "description": "CANCELAMENTO DE PEDIDOS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080008",
+            "description": "TIPO DO CANCELAMENTO DE PEDIDOS DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080009",
+            "description": "COTAS DE VENDAS POR COLEÇÃO E REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080010",
+            "description": "COTAS DE VENDAS POR VARIOS ITENS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080011",
+            "description": "CONSULTA DE CLIENTES / VENDAS BLOQUEADAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080012",
+            "description": "CONSULTA ANALÍTICA DE VENDAS POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080013",
+            "description": "CONSULTA DE ESTOQUE DISPONÍVEL P/ VENDAS PRONTA ENTREGA ( VENDAS < ESTOQUE)",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080014",
+            "description": "CONSULTA DE VENDAS DE PRODUTO POR TIPO DE CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080015",
+            "description": "CONSULTA DE VENDAS DE PRODUTO POR REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080016",
+            "description": "APROVAÇÃO DE PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080017",
+            "description": "CONSULTA DE VENDAS X COTAS DE VENDAS POR REPRESENTANTE E COLEÇÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080018",
+            "description": "CONSULTA DE ESTOQUE DISPONÍVEL ( ESTOQUE - RESERVADO)",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080019",
+            "description": "CONSULTA DE FATURAMENTO POR GRIFFE COM ROYALTIES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080020",
+            "description": "HISTÓRICO DO PEDIDO DE VENDA ( PEDIDOS ANTIGOS )",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080021",
+            "description": "CONSULTA POR REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080022",
+            "description": "CONSULTA POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080023",
+            "description": "CONSULTA DE HISTÓRICO DE VENDAS POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080024",
+            "description": "CONSULTA POR CLIENTE E REPRESENTANTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080025",
+            "description": "VENDAS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080026",
+            "description": "CADASTRO DE TIPOS DE VENDAS DO DIGITADOR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080027",
+            "description": "LIBERAÇÃO DE PEDIDOS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080028",
+            "description": "ENVIO DE PEDIDOS DE REPRESENTANTES PARA MATRIZ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080029",
+            "description": "CONSULTA DE CLIENTES SEM VENDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080030",
+            "description": "APROVAÇÃO DE PEDIDOS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080031",
+            "description": "CONSULTA DE PEDIDOS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080032",
+            "description": "CONSULTA DE PEDIDOS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080033",
+            "description": "TIPOS DE FRETE PARA VENDAS E FATURAMENTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080035",
+            "description": "HISTÓRICO DE VENDAS POR CLIENTE",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080037",
+            "description": "CONSULTA DE VENDAS MENSAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080039",
+            "description": "CONSULTA DE CANCELAMENTO DE VENDAS POR PRODUTO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080040",
+            "description": "BAIXA DE PEDIDOS DE VENDAS PARA LICENCIADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080041",
+            "description": "CONSULTA DE BAIXAS DE LICENCIADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080042",
+            "description": "PREVISÃO DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080043",
+            "description": "CONSULTA DE PEDIDOS DE VENDAS RATEADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080044",
+            "description": "DEVOLUÇÃO DE NOTAS DE LICENCIADOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080046",
+            "description": "ASSISTENTE PARA RATEIO DE PEDIDO DE VENDAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080047",
+            "description": "PREVISÃO DE VENDAS DE MATERIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080048",
+            "description": "OCORRÊNCIA PARA ACOMPANHAMENTO DE PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080049",
+            "description": "STATUS PARA ACOMPANHAMENTO DE PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080050",
+            "description": "CONSULTA ACOMPANHAMENTO DE PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080101",
+            "description": "PEDIDO DE VENDAS RATEIO DE VENDAS                                             ",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080201",
+            "description": "PEDIDO DE VENDA DIGITAÇÃO RÁPIDA",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080202",
+            "description": "PEDIDO DE VENDA DIGITAÇÃO DE PRODUTOS POR COR",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080203",
+            "description": "PEDIDO DE VENDA DIGITAÇÃO VIA CÓDIGO DE BARRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "080204",
+            "description": "PEDIDO DE VENDA DE ITEM FISCAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "090001",
+            "description": "BANCOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090002",
+            "description": "TIPO DE TÍTULOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090003",
+            "description": "CARTEIRAS DE COBRANÇAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090004",
+            "description": "TÍTULOS A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090005",
+            "description": "CONSULTA DO CONTAS A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090006",
+            "description": "BAIXA DE CONTAS A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090007",
+            "description": "CONSULTA DE TÍTULOS PAGOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090008",
+            "description": "MANUTENÇÃO DO LAYOUT DO CONTAS A PAGAR                                        ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090009",
+            "description": "LANCAMENTO DO BORDERO DO CONTAS A PAGAR                                       ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090010",
+            "description": "MANUTENÇÃO DO LAYOUT DO RETORNO CONTAS A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090011",
+            "description": "CAPTAÇÃO DE ARQUIVO RETORNO CONTAS A PAGAR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090012",
+            "description": "FLUXO DE CAIXA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090013",
+            "description": "CONSULTA TÍTULOS POR FORNECEDOR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090014",
+            "description": "RAZÃO DE FORNECEDORES E DIÁRIO AUXILIAR DE FORNECEDOR",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090015",
+            "description": "APROVAÇÃO DE PAGAMENTOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090016",
+            "description": "CENTRO DE CUSTO COM CONTAS CONTÁBEIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "090017",
+            "description": "CONSULTA DE TÍTULOS PAGOS POR CENTRO DE CUSTO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095001",
+            "description": "TÍTULOS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095002",
+            "description": "BAIXA DE CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095003",
+            "description": "CONSULTA DO CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095004",
+            "description": "GERAÇÃO E IMPRESSÃO DE FATURAS DE CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095005",
+            "description": "MANUTENÇÃO DO LAYOUT DO ARQUIVO REMESSA",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095006",
+            "description": "LANÇAMENTO DO BORDERÔ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095007",
+            "description": "CONSULTA DE TÍTULOS RECEBIDOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095008",
+            "description": "MANUTENÇÃO DO LAYOUT RETORNO CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095009",
+            "description": "CAPTAÇÃO DE ARQUIVO RETORNO CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095010",
+            "description": "ADMINISTRADORA DE CARTÃO",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "095012",
+            "description": "CONSULTA DE CHEQUES E CARTÕES DE CRÉDITO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095013",
+            "description": "CONSULTA DO CONTAS A RECEBER POR CLIENTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095016",
+            "description": "QUITAÇÕES DE DUPLICATAS COM CHEQUES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095019",
+            "description": "RAZÃO DE CLIENTES E DIÁRIO AUXILIAR DE CLIENTES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095020",
+            "description": "CADASTRO DE CHEQUES E CARTÕES",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095021",
+            "description": "LANÇAMENTO DE NOTAS DE DÉBITO DE JUROS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095022",
+            "description": "MOVIMENTAÇÃO DE TÍTULOS - CHEQUES E CARTÕES                                   ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095024",
+            "description": "PRAÇAS DE COBRANCA DOS BANCOS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095025",
+            "description": "CARTEIRAS E CONTRATOS DE DESCONTO BANCÁRIO",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095026",
+            "description": "TRANSFERÊNCIA DE CHEQUES PARA CONTAS A RECEBER",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095027",
+            "description": "PREVISÃO DE VENDAS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095029",
+            "description": "GERAÇÃO DE FATURAS PARA NOTAS FISCAIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095030",
+            "description": "IMPRESSAO DE FATURAS DE NOTAS FISCAIS                                         ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095033",
+            "description": "CONSULTA DE CHEQUES E CARTÕES COM C M C 7",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "095034",
+            "description": "BAIXA AUTOMÁTICA DE CARTÕES                                                   ",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "100130",
+            "description": "CONSULTA DE FATURAMENTO COM GRIFFE POR ROYALTIES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120016",
+            "description": "CONSULTA DE ESTOQUE  ( TRÂNSITO/DISPONÍVEL )",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "120105",
+            "description": "ARMAZÉNS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "150019",
+            "description": "CONTROLE DE DATAS E PERCENTUAIS",
+            "tier": "11.3 - SUPORTE N2 - ERP | FFC"
+        },
+        {
+            "ctrl_system": "300046",
+            "description": "CONSULTA SINTÉTICA DE VENDAS POR PRODUTO C/ FAIXA DE DATA/FILIAL",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "300073",
+            "description": "CONCILIAÇÃO DE TRÂNSITO DE PRODUTOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "CAT",
+            "description": "PRODUTOS EM PEDIDOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "VERI",
+            "description": "RECALCULOS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB001",
+            "description": "CATALOGO DE PRODUTOS LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB002",
+            "description": "PARÂMETROS LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB003",
+            "description": "LANCAMENTO DE PEDIDOS NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB004",
+            "description": "LIBERA ACESSO A MOVIMENTAÇÃO DE PEDIDOS NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB005",
+            "description": "CONSULTA DE ESTOQUE DISPONÍVEL NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB006",
+            "description": "CONSULTA DE ESTOQUE DE FILIAIS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB007",
+            "description": "CONSULTA DA POSIÇÃO FINANCEIRA DE CLIENTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB008",
+            "description": "CONSULTA DE COTAS DE REPRESENTANTES",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB009",
+            "description": "CONSULTA DE VENDAS DE CLIENTES VAREJO NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB010",
+            "description": "EXPORTAÇÃO DE PEDIDOS DO LINXWEB PARA COMPRAS",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB011",
+            "description": "CONSULTA TABELA DE MEDIDAS DE PRODUTOS NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB012",
+            "description": "CONSULTA DE FATURAMENTO NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB013",
+            "description": "CONSULTA DE PRODUÇÃO PARA LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB014",
+            "description": "IMPRESSÃO DE PEDIDOS APROVADOS LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB015",
+            "description": "CADASTRO/CONSULTA DE CLIENTES LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB016",
+            "description": "APRESENTAÇÃO DE DOCUMENTOS NO LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        },
+        {
+            "ctrl_system": "WEB017",
+            "description": "CONSULTAS EXCLUSIVAS SISTEMA LINXWEB",
+            "tier": "11.2 - SUPORTE N2 - COML/SUP/PRODUCAO"
+        }
+    ]
+}
