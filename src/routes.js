@@ -57,7 +57,7 @@ router.get('/ctrl-system', (req, res) => {
 });
 
 router.get("/ctrl-system/:ctrl_system", (req, res) => {
-  const findCtrl = usStates.find((ctrlSystem) => ctrlSystem.ctrl_system === req.params.ctrl_system);
+  const findCtrl = ctrlSystem.find((data) => data.ctrl_system === req.params.ctrl_system);
   res.json(findCtrl);
 });
 
