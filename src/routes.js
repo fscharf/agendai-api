@@ -49,4 +49,16 @@ router.post("/schedule-att", auth.validJWTNeeded, scheduleAtt.create);
 router.put("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.update);
 router.delete("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.destroy);
 
+//CtrlSystem
+let ctrlSystem = require("./src/models/json/ctrl_system.json");
+
+router.get('/ctrl-system', (req, res) => {
+  res.send(ctrlSystem);
+});
+
+router.get("/ctrl-system/:ctrl_system", (req, res) => {
+  const findCtrl = usStates.find((ctrlSystem) => ctrlSystem.ctrl_system === req.params.ctrl_system);
+  res.json(findCtrl);
+});
+
 module.exports = router;

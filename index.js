@@ -30,12 +30,6 @@ app.use(
 
 app.use(router);
 
-let ctrlSystem = require("./src/models/json/ctrl_system.json");
-
-app.get('/ctrl-system', (req, res) => {
-  res.send(ctrlSystem);
-});
-
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
