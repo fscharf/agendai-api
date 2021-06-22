@@ -7,8 +7,6 @@ const router = require("./src/routes");
 const port = process.env.PORT;
 const cors = require("cors");
 
-app.use(cors());
-
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "*"); // allowed actios
@@ -18,6 +16,8 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Headers", "*");
   next();
 });
+
+app.use(cors());
 
 app.use(express.json());
 app.use(

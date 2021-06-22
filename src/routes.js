@@ -56,8 +56,8 @@ router.get('/ctrl-system', (req, res) => {
   res.send(ctrlSystem);
 });
 
-router.get("/ctrl-system/:ctrl_system", (req, res) => {
-  const findCtrl = ctrlSystem.find((data) => data.ctrl_system === req.params.ctrl_system);
+router.get("/ctrl-system/:query", (req, res) => {
+  const findCtrl = ctrlSystem.find((data) => data.ctrl_system === req.params.query);
   res.json(findCtrl);
 });
 
