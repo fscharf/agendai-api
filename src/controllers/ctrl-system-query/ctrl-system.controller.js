@@ -14,4 +14,4 @@ const ctrlSystemRoutes = (app, fs) => {
     });
   };
   
-  module.exports = { ctrlSystemRoutes };
+  module.exports = ctrlSystemRoutes;
