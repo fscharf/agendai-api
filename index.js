@@ -2,9 +2,13 @@ require("dotenv").config();
 
 const express = require("express");
 const app = express();
+const fs = require("fs");
 const router = require("./src/routes");
 const port = process.env.PORT;
 const cors = require("cors");
+
+const ctrlSystemRoutes = require("./src/controllers/ctrl-system-query/ctrl-system.controller")
+
 app.use(cors());
 
 app.use((req, res, next) => {
@@ -25,10 +29,7 @@ app.use(
 );
 
 app.use(router);
-
-const makeCrud = require('express-json-file-crud').makeCrud;
-const ctrlSystem = makeCrud('ctrl-system', './src/models/json');
-app.use('/ctrl-system', ctrlSystem);
+app.use("/ctrl-system", ctrlSystemRoutes(app, fs))
 
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
