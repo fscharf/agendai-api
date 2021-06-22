@@ -29,7 +29,7 @@ app.use(
 );
 
 app.use(router);
-app.use("/ctrl-system", ctrlSystemRoutes(app, fs))
+app.use("/ctrl-system", ctrlSystemRoutes)
 
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
