@@ -7,12 +7,10 @@ const router = require("./src/routes");
 const port = process.env.PORT;
 const cors = require("cors");
 
-const ctrlSystemRoutes = require("./src/controllers/ctrl-system-query/ctrl-system.controller")
-
 app.use(cors());
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "*"); // allowed actios
   if (req.method === "OPTIONS") {
     return res.sendStatus(200); // to deal with chrome sending an extra options request

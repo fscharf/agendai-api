@@ -50,7 +50,7 @@ router.put("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.update);
 router.delete("/schedule-att/:id", auth.validJWTNeeded, scheduleAtt.destroy);
 
 //CtrlSystem
-let ctrlSystem = require("./src/models/json/ctrl_system.json");
+let ctrlSystem = require("./models/json/ctrl_system.json");
 
 router.get('/ctrl-system', (req, res) => {
   res.send(ctrlSystem);
